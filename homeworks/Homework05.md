@@ -16,14 +16,14 @@ The table below represents two methods of encoding (fixed-length and variable-le
 Character |  a |  b |  c |  d |  e |  f 
 -- | -- | -- | -- | -- | -- | -- 
 Frequency | 45 | 13 | 12 | 16 | 9 | 5
-Fixed-lenth codeword | 000 | 001 | 010 | 011 | 100 | 101
+Fixed-length codeword | 000 | 001 | 010 | 011 | 100 | 101
 Variable-length codeword |  0 |  101 | 100 | 111 | 1101 | 1100
 
 ## Question 3
-Create a string by concatenating your first name, middle name and last name. Use the Huffman coding algorithm to create a codeword for each of the letter in your name. Start by creating a frequency table of letters such that the characters are ordered by their frequency. Most importantly, show the steps of the Huffman's algorithm by displaying how the Huffman (binary) tree grows after each step. How many bits are be required for encoding your name? How many bits would it require if we were to use fixed-length codeword?
+Create a string by concatenating your first name, middle name, and last name. Use the Huffman coding algorithm to create a codeword for each of the letter in your name. Start by creating a frequency table of letters such that the characters are ordered by their frequency. Most importantly, show the steps of the Huffman's algorithm by displaying how the Huffman (binary) tree grows after each step. How many bits are required for encoding your name? How many bits would it require if we were to use fixed-length codewords?
 
 ## Question 4 
-What is the optimal Huffman code for the following set of frequencies, based on the first n Fibonacci numbers? show the steps of the Huffman's algorithm by displaying how the Huffman (binary) tree grows after each step. Optionally, you can also use the Python code below to verify your answer. (from CLRS 16.3-3)
+What is the optimal Huffman code for the following set of frequencies, based on the first n Fibonacci numbers? Show the steps of the Huffman's algorithm by displaying how the Huffman (binary) tree grows after each step. Optionally, you can also use the Python code below to verify your answer. (from CLRS 16.3-3)
 ```
 a:1  b:1  c:2  d:3  e:5  f:8  g:13  h:21
 ```
