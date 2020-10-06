@@ -86,15 +86,15 @@ Degree matrix:
  [ 0 -1 -1  2]]
 ```
 
-## Question 5
+## Question 6
 What **minimal** changes can be made to the following **algorithm** so that (i) accepts a destination node, (ii) terminates when a destination node is found, and (iii) the algorithm becomes a depth-first search. Show all changes at a single place.
 
 <img src="bfs.png" align="middle" width="350"/>
 
-## Question 6
+## Question 7
 The running time of DFS and BFS is O(V+E). Discuss how aggregate analysis (ammortized analysis) applies to derive this running time.
 
-## Question 7
+## Question 8
 For the following two graphs, trace the depth-first search algorithm. Assume that the DFS procedure considers the vertices in **reverse alphabetical order**. Also assume that the adjacency list is ordered reverse-alphabetically. Submit: (i) DFS tree/forest, (ii) Show the discovery and finishing times for each vertex, and (iii) the ordering of the vertices produced by a topological sorting algorith. The [NetworkX](https://networkx.github.io/) library implements the topological sorting algorithm that can be called on a graph (see code block below). Use the code block to verify your topological order. Hints: (i) topological sorting only works on acyclic graphs, (ii) there can be many correct solutions for a topological soring problem.
 
 ```python
@@ -113,6 +113,6 @@ print(list(nx.topological_sort(DG)))
 
 <img src="topological_sort_problems.png" align="middle" width="800"/>
 
-## Question 8
+## Question 9
 Say you want to install a library called X, and it depends upon dozens of other libraries. These libraries have their own inter-dependencies but there are no circular dependencies. In other words, you have a dependency graph between all these libraries that you plan to install. Your goal is to come up with an order of these libraries such that installing the libraries by the order will eventually allow you to install X without any dependency errors. What algorithm will you use?
 
