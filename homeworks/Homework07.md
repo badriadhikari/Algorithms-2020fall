@@ -87,9 +87,9 @@ Degree matrix:
 ```
 
 ## Question 6
-What **minimal** changes can be made to the following **algorithm** so that (i) accepts a destination node, (ii) terminates when a destination node is found, and (iii) the algorithm becomes a depth-first search. Show all changes at a single place.
+What **minimal** changes can be made to the following BFS **algorithm** so that (i) accepts a destination node, (ii) terminates when a destination node is found, and (iii) the algorithm becomes a depth-first search. Show all changes at a single place.
 
-<img src="bfs_clrs.png" align="middle" width="350"/>
+<img src="bfs_clrs.png" align="middle" width="600"/>
 
 ## Question 7
 The running time of DFS and BFS is O(V+E). Discuss how aggregate analysis (ammortized analysis) applies to derive this running time.
