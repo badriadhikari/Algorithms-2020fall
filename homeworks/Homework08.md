@@ -11,7 +11,7 @@ Please read this with the goal of using the knowledge to do the homework below.
 
 
 ## Question 1
-Assign the houses in the muddy city map, the names of US states. Assume that paving the bridge costs thrice more than using a paving stone. Verify your solution using the NetworkX library (see example code block below).
+Assign the houses in the muddy city map, the names of US states. Assume that paving the bridge costs thrice more than a stone. Verify your solution using the NetworkX library (see example code block below).
 
 ```python
 import networkx as nx
