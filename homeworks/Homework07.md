@@ -97,6 +97,8 @@ The running time of DFS and BFS is O(V+E). Discuss how aggregate analysis (ammor
 ## Question 8
 For the following two graphs, trace the depth-first search algorithm. Assume that the DFS procedure considers the vertices in **reverse alphabetical order**. Also assume that the adjacency list is ordered reverse-alphabetically. Submit: (i) DFS tree/forest, (ii) Show the discovery and finishing times for each vertex, and (iii) the ordering of the vertices produced by a topological sorting algorith. The [NetworkX](https://networkx.github.io/) library implements the topological sorting algorithm that can be called on a graph (see code block below). Use the code block to verify your topological order. Hints: (i) topological sorting only works on acyclic graphs, (ii) there can be many correct solutions for a topological soring problem.
 
+<img src="dfs_clrs.png" align="center" width="600"/>
+
 ```python
 # Build a directed graph
 DG = nx.DiGraph(
