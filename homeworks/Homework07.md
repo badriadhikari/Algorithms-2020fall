@@ -43,7 +43,7 @@ The [NetworkX](https://networkx.github.io/) library in Python implements many me
 ## Question 5 (programming)
 The **incidence matrix** of a directed graph G = (V, E) with no self-loops is a |V| x |E| matrix B = (b<sub>ij</sub>) such that b<sub>ij</sub> = -1 if edge j leaves vertex i, 1 if edge j enters vertex i, and 0 otherwise. For the graph shown below, (a) complete the function below such that it computes this incidence matrix B, and (b) describe what the diagonal of the matrix dot product B.B<sup>T</sup> represents, and what the values of the non-diagonal elements represent. B<sup>T</sup> is the transpose of B. Note that only the `adjacency2incidence` method needs to be implemented, rest is done.
 
-<img src="incidence_graph.png" align="middle" width="250"/>
+<img src="incidence_graph.png" align="middle" width="200"/>
 
 ```python
 import numpy as np
