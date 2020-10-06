@@ -43,7 +43,7 @@ Reorder the following terms from lowest to highest time complexity, using `<` be
 # Question 4 (From CLRS 3-3(a))
 Rank the following functions by order of growth and **describe how you obtained the ranking**; i.e. find an arrangement g<sub>1</sub>, g<sub>2</sub>, ..., g<sub>N</sub> of the functions satisfying g<sub>1</sub> = Ω(g<sub>2</sub>), g<sub>2</sub> = Ω(g<sub>3</sub>), ..., g<sub>n-1</sub> = Ω(g<sub>N</sub>). Also discuss which of the functions are equivalent (by reducing whichever ones can be reduced).  Hint: Besides the mathematical analysis, two additional techniques that you MAY use to determine the growth are: (a) plotting the functions, and (b) timing the execution of the functions as shown [here](timing-execution.md).
 
-<img src="ordering-growth-rate.png" align="middle" width="350"/>
+<img src="ordering-growth-rate.png" align="center" width="350"/>
 
 
 **Help:**   
