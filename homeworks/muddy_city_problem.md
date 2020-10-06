@@ -1,4 +1,4 @@
-# The Muddy city problem
+# Muddy city problem
 Once upon a time there was a city that had no roads. Getting around the city was particularly difficult after rainstorms because the ground became very muddy—cars got stuck in the mud and people got their boots dirty. The map below shows the layout of the city. The mayor of the city decided that some of the streets must be paved, but didn’t want to spend more money than necessary because the city also wanted to build a swimming pool.
 
 The mayor therefore specified two conditions:  
