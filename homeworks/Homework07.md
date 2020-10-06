@@ -100,6 +100,7 @@ For the following two graphs, trace the depth-first search algorithm. Assume tha
 <img src="dfs_clrs.png" align="center" width="600"/>
 
 ```python
+import networkx as nx
 # Build a directed graph
 DG = nx.DiGraph(
 DG.add_edge('a', 'b')
