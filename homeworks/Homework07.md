@@ -19,20 +19,31 @@ TOPOLOGICAL-SORT(G)
    As each vertex’s finish time is computed, insert it onto the front of a linked list
    Return the linked list of vertices
 ```
-Types of tree edges in depth-first forest:
-<img align="center">
+Types of tree edges in depth-first forest:  
+<img src="dfs_edges.png" align="middle" width="350"/>
 
 ## Question 1
 A job scheduling problem. Say you want to install a library called X, and it depends upon dozens of other libraries. These libraries have their own inter-dependencies but there are no circular dependencies. In other words, you have a dependency graph between all these libraries that you plan to install. Your goal is to come up with an order of these libraries such that installing the libraries by the order will eventually allow you to install X without any dependency errors. What algorithm will you use?
 
+## Question 8
+Say, A, B, C, D, E, and F are activities with dependencies shown below. Which of the following is a topological sort, and which is not?  
+<img src="topological_sort_question.png" align="middle" width="350"/>
+
 ## Question 2
 For the graph below prepare an adjacency matrix, and adjacency list representation (in paper or in computer). An example is provided.
 
+<img src="umsl-graph.png" align="middle" width="350"/>
+
+Example representations:  
+<img src="graph_representation_example.png" align="middle" width="350"/>
+
 ## Question 3
-The [NetworkX](https://networkx.github.io/) library in Python implements many methods for graph processing. According to the [NetworkX documentation](https://networkx.github.io/documentation/stable/_downloads/networkx_reference.pdf) the library implemented using adjacency list representation (not adjacency matrix). What are the advantages and disadvantages of this such a representation? Hint: see CLRS section 22.1.
+The [NetworkX](https://networkx.github.io/) library in Python implements many methods for graph processing. This library is easy to use; here is an [example](./NetworkX.ipynb). According to the [NetworkX documentation](https://networkx.github.io/documentation/stable/_downloads/networkx_reference.pdf) the library implemented using adjacency list representation (not adjacency matrix). What are the advantages and disadvantages of this such a representation? Why do you think that the library was chosen to be implemented using the adjacency list representation? Hint: see CLRS section 22.1.
 
 ## Question 4
 What **minimal** changes can be made to the following **algorithm** so that (i) accepts a destination node, (ii) terminates when a destination node is found, and (iii) the algorithm becomes a depth-first search. Show all changes at a single place.
+
+<img src="ordering-growth-rate.png" align="middle" width="350"/>
 
 ## Question 5
 The running time of DFS and BFS is O(V+E). Discuss how aggregate analysis (ammortized analysis) applies to derive this running time.
@@ -54,7 +65,7 @@ nx.draw(DG, alpha = 0.5, with_labels = True)
 print(list(nx.topological_sort(DG)))
 ```
 
-<img align="center" "topological_sort_problems.png">
+<img src="topological_sort_problems.png" align="middle" width="350"/>
 
 ## Question 7
 Say you want to install a library called X, and it depends upon dozens of other libraries. These libraries have their own inter-dependencies but there are no circular dependencies. In other words, you have a dependency graph between all these libraries that you plan to install. Your goal is to come up with an order of these libraries such that installing the libraries by the order will eventually allow you to install X without any dependency errors. What algorithm will you use?
