@@ -22,3 +22,5 @@ MST = nx.minimum_spanning_tree(G)
 nx.draw(G, alpha = 0.8, with_labels = True)
 ```
 
+## Question 2
+Say that we have a larger muddy city with `N` houses. To interconnect all the houses we can use an arrangement of `N-1` roads, each connecting two houses. Assuming that the cost of connecting any two houses is fixed (same), how many arrangements are possible (in terms of N)?
