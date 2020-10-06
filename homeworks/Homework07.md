@@ -26,7 +26,7 @@ Types of tree edges in depth-first forest:
 A job scheduling problem. Say you want to install a library called X, and it depends upon dozens of other libraries. These libraries have their own inter-dependencies but there are no circular dependencies. In other words, you have a dependency graph between all these libraries that you plan to install. Your goal is to come up with an order of these libraries such that installing the libraries by the order will eventually allow you to install X without any dependency errors. This is a form of [dependency hell](https://en.wikipedia.org/wiki/Dependency_hell). For this particular situation, what algorithm will you use?
 
 ## Question 2
-Say, A, B, C, D, E, and F are activities with dependencies shown below. Which of the following is a topological sort, and which is not? Mention why.
+Say, A, B, C, D, E, and F are activities with dependencies shown below. Which of the following is a topological sort, and which is not? Mention why.  
 <img src="topological_sort_question.png" align="middle" width="550"/>
 
 ## Question 3
