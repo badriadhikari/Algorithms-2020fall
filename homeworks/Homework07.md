@@ -115,7 +115,3 @@ print(list(nx.topological_sort(DG)))
 ```
 
 <img src="topological_sort_problems.png" align="middle" width="800"/>
-
-## Question 9
-Say you want to install a library called X, and it depends upon dozens of other libraries. These libraries have their own inter-dependencies but there are no circular dependencies. In other words, you have a dependency graph between all these libraries that you plan to install. Your goal is to come up with an order of these libraries such that installing the libraries by the order will eventually allow you to install X without any dependency errors. What algorithm will you use?
-
