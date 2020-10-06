@@ -1,6 +1,7 @@
 <img src="supporting_files/umsl.png" align="middle" width="350"/>
 
-# Syllabus of Advanced Data Structures & Algorithms (CS 5130) - 2020 Fall
+# Syllabus of Advanced Data Structures & Algorithms (CS 5130)
+# 2020 Fall
 
 ## A. Class and office hours
 * Instructor: [Badri Adhikari](http://umsl.edu/~adhikarib/)
