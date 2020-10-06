@@ -9,4 +9,4 @@ Remember that the mayor's condition does not include 'convinience'. As long as a
 
 If the number of paving stones between each house represents the cost of paving that route, what algorithm will enable us to figure out the least number of paving stones needed to allow people to get from any house to any other?
 
-<img src="muddy_city.png" align="middle" width="450"/>
+<img src="muddy_city.png" align="middle" width="800"/>
