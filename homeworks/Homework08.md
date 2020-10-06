@@ -3,8 +3,8 @@
 ## Read sections xxxxx from CLRS (skip all theoretical proofs)
 Please read this with the goal of using the knowledge to do the homework below.
 
-## Learn the muddy city problem
-[The muddy city problem](./muddy_city_problem.md).
+## Understand the muddy city problem
+[The muddy city problem](./muddy_city_problem.md)
 
 ## Watch lectures
 1. [??](??)
