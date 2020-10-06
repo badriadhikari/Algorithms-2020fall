@@ -40,6 +40,52 @@ Example representations:
 ## Question 4
 The [NetworkX](https://networkx.github.io/) library in Python implements many methods for graph processing. This library is easy to use; here is an [example](./NetworkX.ipynb). According to the [NetworkX documentation](https://networkx.github.io/documentation/stable/_downloads/networkx_reference.pdf) the library implemented using adjacency list representation (not adjacency matrix). What are the advantages and disadvantages of this such a representation? Why do you think that the library was chosen to be implemented using the adjacency list representation? Hint: see CLRS section 22.1.
 
+## Question 5 (programming)
+The **incidence matrix** of a directed graph G = (V, E) with no self-loops is a |V| x |E| matrix B = (b<sub>ij</sub>) such that b<sub>ij</sub> = -1 if edge j leaves vertex i, 1 if edge j enters vertex i, and 0 otherwise. For the graph shown below, (a) complete the function below such that it computes this incidence matrix B, and (b) describe what the diagonal of the matrix dot product B.B<sup>T</sup> represents, and what the values of the non-diagonal elements represent. B<sup>T</sup> is the transpose of B. Note that only the `adjacency2incidence` method needs to be implemented, rest is done.
+
+<img src="incidence_graph.png" align="middle" width="450"/>
+
+```python
+import numpy as np
+adjacency_matrix = np.asarray([[0, 1, 1, 0], [1, 0, 0, 1], [0, 1, 0, 0], [0, 0, 1, 0]])
+
+def adjacency2incidence(A):
+    # TO DO:
+
+
+
+    # of course, you must remove the line below
+    B = np.asarray([[1, -1, 0, 0], [1, 0, -1, 0], [0, 1, 0, -1], [0, -1, 1, 0], [0, 0, -1, 1], [-1, 1, 0, 0]])
+    return B.T # depending on how you implement this may be B only
+
+print('Adjacency matrix:')
+print(adjacency_matrix)
+B = adjacency2incidence(adjacency_matrix)
+print('Incidence matrix:')
+print(B)
+print('Degree matrix:')
+print(B.dot(B.T))
+```
+
+Output:
+```
+Adjacency matrix:
+[[0 1 1 0]
+ [1 0 0 1]
+ [0 1 0 0]
+ [0 0 1 0]]
+Incidence matrix:
+[[ 1  1  0  0  0 -1]
+ [-1  0  1 -1  0  1]
+ [ 0 -1  0  1 -1  0]
+ [ 0  0 -1  0  1  0]]
+Degree matrix:
+[[ 3 -2 -1  0]
+ [-2  4 -1 -1]
+ [-1 -1  3 -1]
+ [ 0 -1 -1  2]]
+```
+
 ## Question 5
 What **minimal** changes can be made to the following **algorithm** so that (i) accepts a destination node, (ii) terminates when a destination node is found, and (iii) the algorithm becomes a depth-first search. Show all changes at a single place.
 
@@ -69,3 +115,4 @@ print(list(nx.topological_sort(DG)))
 
 ## Question 8
 Say you want to install a library called X, and it depends upon dozens of other libraries. These libraries have their own inter-dependencies but there are no circular dependencies. In other words, you have a dependency graph between all these libraries that you plan to install. Your goal is to come up with an order of these libraries such that installing the libraries by the order will eventually allow you to install X without any dependency errors. What algorithm will you use?
+
