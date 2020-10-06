@@ -11,7 +11,7 @@ Please read this with the goal of using the knowledge to do the homework below.
 
 ## Additional notes
 
-Topological sort algorithm
+Topological sort algorithm:
 ```
 TOPOLOGICAL-SORT(G)
    Identify the vertices that have no incoming edges (say I is the set)
@@ -19,7 +19,7 @@ TOPOLOGICAL-SORT(G)
    As each vertex’s finish time is computed, insert it onto the front of a linked list
    Return the linked list of vertices
 ```
-Types of tree edges in depth-first forest
+Types of tree edges in depth-first forest:
 <img align="center">
 
 ## Question 1
