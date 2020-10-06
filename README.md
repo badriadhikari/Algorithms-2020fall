@@ -77,7 +77,7 @@ CLRS 3rd Edition (ISBN 978-0-262-03384-8 or ISBN 978-0-262-53305-8); at [amazon]
   - 35.2 The traveling-salesman problem  
   - 35.3 The set-covering problem  
 
-<img src="supporting_files/schedule.png" align="middle" width="450"/>
+<img src="supporting_files/schedule.png" align="middle" width="600"/>
 
 ## F. General policies
 * Keep yourself out of plagarism; Read [UMSL's Policy](https://www.umsl.edu/services/academic/policy/academic-dishonesty.html); Our `turnitin` tool automatically checks for plagarism; Here is an [example](supporting_files/turn-it-in.png).
