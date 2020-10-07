@@ -116,6 +116,8 @@ The finals for this course will be in the form of a oral test, via Zoom one-on-o
    <img src="supporting_files/grades.png" align="middle" width="450"/>
 
 ## O. Resources
+Your success in this class is important to me. We will all need accommodations because we all learn differently. If you need official accommodations, you have a right to have these met. If there are aspects of this course that prevent you from learning or exclude you, please let me know as soon as possible. Together we’ll develop strategies to meet both your needs and the requirements of the course. I encourage you to visit the following links to determine how you could improve your learning as well. 
+
 * [Resources & Support](https://umsl.instructure.com/courses/44471/pages/student-resources-and-supports?module_item_id=454221)
 * [Technology Assistance](https://umsl.instructure.com/courses/44471/pages/technology-assistance?module_item_id=454223)
 
