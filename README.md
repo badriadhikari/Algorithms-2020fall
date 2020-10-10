@@ -3,16 +3,10 @@
 # Syllabus of Advanced Data Structures & Algorithms (CS 5130)
 
 ## 1. Class and office hours
-* Instructor (Facilitator): [Badri Adhikari](http://umsl.edu/~adhikarib/)
-* Email: [adhikarib@umsl.edu](mailto:adhikarib@umsl.edu)
-* Class meets: `Tuesdays 8:20PM - 9:35PM` (synchronously via Zoom)
-* Office hours: By appointment
 
 | Instructor (facilitator) | Contact info. |
 |:---|:---|
 | [<img src="https://badriadhikari.github.io/badri-public-photo.jpg" align="middle" width="150"/>](https://badriadhikari.github.io/) | Instructor (Facilitator): [Badri Adhikari](http://umsl.edu/~adhikarib/) <br> Email: [adhikarib@umsl.edu](mailto:adhikarib@umsl.edu) <br> Class meets: `Tuesdays 8:20PM - 9:35PM` (synchronously via Zoom) <br> Office hours: By appointment |
-
-
 
 ## 2. About the course (Official course description)
 * This course covers analysis of time and space complexity of iterative and recursive algorithms, design of data structures for efficient performance, mathematical modeling, dynamic programming, divide and conquer strategies, greedy algorithms, a collection of graph algorithms, linear and integer mathematical programming, and NP-Completeness. \[3 credit units\].
