@@ -134,13 +134,20 @@ The finals for this course will be in the form of a oral test, via Zoom one-on-o
 
 ## N. Grading scheme  
 
-| Points      | Grade | 
+| Points      | Grade |
 | ----------- | ----- |
-| 100% to 94% and <94% to 90% | A and A- |  
-| <90% to 87%, <87% to 84%, and <84% to 80% | B+, B, B- |
-| <80% to 77%, <77% to 74%, and <74% to 70% | C+, C, C- |
-| <70% to 67%, <67% to 64%, and <64% to 61% | D+, D, D- |
-| <61% to 0%  | F  |
+| 100% to 94% | A     |
+| <94% to 90% | A-    |
+| <90% to 87% | B+    |
+| <87% to 84% | B     |
+| <84% to 80% | B-    |
+| <80% to 77% | C+    |
+| <77% to 74% | C     |
+| <74% to 70% | C-    |
+| <70% to 67% | D+    |
+| <67% to 64% | D     |
+| <64% to 61% | D-    |
+| <61% to 0%  | F     |
 
 ## O. Resources
 Your success in this class is important to me. We will all need accommodations because we all learn differently. If you need official accommodations, you have a right to have these met. If there are aspects of this course that prevent you from learning or exclude you, please let me know as soon as possible. Together we’ll develop strategies to meet both your needs and the requirements of the course. I encourage you to visit the following links to determine how you could improve your learning as well. 
