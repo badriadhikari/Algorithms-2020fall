@@ -10,7 +10,7 @@
 
 | <img src="https://badriadhikari.github.io/badri-public-photo.jpg" align="middle" width="150"/> | [![GraphicStock](http://www.graphicstock.com/images/logo.jpg)](http://graphicstock.com) |
 |:---:|:---:|
-| http://umsl.edu/~adhikarib/ | http://audioblocks.com |
+| [badriadhikari.github.io](https://badriadhikari.github.io/) | http://audioblocks.com |
 
 
 ## 2. About the course (Official course description)
