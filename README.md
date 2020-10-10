@@ -8,7 +8,8 @@
 * Class meets: `Tuesdays 8:20PM - 9:35PM` (synchronously via Zoom)
 * Office hours: By appointment
 
-| [<img src="https://badriadhikari.github.io/badri-public-photo.jpg" align="middle" width="150"/>](https://badriadhikari.github.io/) | [![GraphicStock](http://www.graphicstock.com/images/logo.jpg)](http://graphicstock.com) |
+| [<img src="https://badriadhikari.github.io/badri-public-photo.jpg" align="middle" width="150"/>](https://badriadhikari.github.io/) | * x |
+|  | * y |
 |:---:|:---:|
 | [badriadhikari.github.io](https://badriadhikari.github.io/) | http://audioblocks.com |
 
