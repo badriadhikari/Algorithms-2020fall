@@ -12,7 +12,7 @@
 # cat example.md
 aa|bb|cc
 --|--|--
-ee|ff|gg
+<img src="supporting_files/umsl.png" align="middle" width="350"/>|ff|gg
 
 ## 2. About the course (Official course description)
 * This course covers analysis of time and space complexity of iterative and recursive algorithms, design of data structures for efficient performance, mathematical modeling, dynamic programming, divide and conquer strategies, greedy algorithms, a collection of graph algorithms, linear and integer mathematical programming, and NP-Completeness. \[3 credit units\].
