@@ -11,7 +11,6 @@
 
 # cat example.md
 aa|bb|cc
---|--|--
 <img src="supporting_files/umsl.png" align="middle" width="350"/>|ff|gg
 
 ## 2. About the course (Official course description)
