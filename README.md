@@ -89,15 +89,15 @@ CLRS 3rd Edition (ISBN 978-0-262-03384-8 or ISBN 978-0-262-53305-8); at [amazon]
 | 6      | 09/29                   | No meeting                                  |
 | 7      | 10/06                   | Discussion of Homework 06 (Chapter 17)      |
 | 8      | 10/13                   | Discussion of Homework 07 (Chapter 22)      |
-| 9      | 10/20                   | Mid-term oral test week                     |
+| 9      | 10/20                   | *Mid-term oral test week*                   |
 | 10     | 10/27                   | Discussion of Homework 08 (Chapter 23)      |
 | 11     | 11/03                   | Discussion of Homework 09 (Chapter 24)      |
 | 12     | 11/10                   | Discussion of Homework 10 (Chapter 25)      |
 | 13     | 11/17                   | Discussion of Homework 11 (Chapter 26)      |
-| 14     | 11/24                   | Fall break                                  |
+| 14     | 11/24                   | **Fall break**                              |
 | 15     | 12/01                   | Discussion of Homework 12 (Chapter 34)      |
 | 16     | 12/08                   | Discussion of Homework 13 (Chapter 35)      |
-| 12/14  | Finals week (oral test) |
+| -      | 12/14                   | **Finals week (oral test)**                 |
 
 ## F. General policies
 * Keep yourself out of plagarism; Read [UMSL's Policy](https://www.umsl.edu/services/academic/policy/academic-dishonesty.html); Our `turnitin` tool automatically checks for plagarism; Here is an [example](supporting_files/turn-it-in.png).
