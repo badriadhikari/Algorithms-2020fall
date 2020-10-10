@@ -10,7 +10,7 @@
 
 # cat example.md
 
-| [![VideoBlocks](supporting_files/umsl.png)](http://umsl.edu/~adhikarib/)  | [![GraphicStock](http://www.graphicstock.com/images/logo.jpg)](http://graphicstock.com) |
+| [![VideoBlocks](https://badriadhikari.github.io/badri-public-photo.jpg)](http://umsl.edu/~adhikarib/)  | [![GraphicStock](http://www.graphicstock.com/images/logo.jpg)](http://graphicstock.com) |
 |:---:|:---:|
 | http://umsl.edu/~adhikarib/ | http://audioblocks.com |
 
