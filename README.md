@@ -133,6 +133,14 @@ The finals for this course will be in the form of a oral test, via Zoom one-on-o
 * 1 bonus point to everyone who complete the course evaluation survey (please email me once you submit the survey)
 
 ## N. Grading scheme  
+
+| Points      | Grade |  | Points      | Grade |  | Points      | Grade |
+| ----------- | ----- |  | ----------- | ----- |  | ----------- | ----- |
+| 100% to 94% | A     |  | <84% to 80% | B-    |  | <70% to 67% | D+    |
+| <94% to 90% | A-    |  | <80% to 77% | C+    |  | <67% to 64% | D     |
+| <90% to 87% | B+    |  | <77% to 74% | C     |  | <64% to 61% | D-    |
+| <87% to 84% | B     |  | <74% to 70% | C-    |  | <61% to 0%  | F     |
+
    <img src="supporting_files/grades.png" align="middle" width="450"/>
 
 ## O. Resources
