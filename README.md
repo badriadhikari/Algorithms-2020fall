@@ -10,6 +10,7 @@
 
 # cat example.md
 
+| | |
 <img src="supporting_files/umsl.png" align="middle" width="350"/> | Instructor (Facilitator): [Badri Adhikari](http://umsl.edu/~adhikarib/) <br>
 Email: [adhikarib@umsl.edu](mailto:adhikarib@umsl.edu)
 
