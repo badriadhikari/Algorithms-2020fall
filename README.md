@@ -3,7 +3,7 @@
 # Syllabus of Advanced Data Structures & Algorithms (CS 5130)
 
 ## A. Class and office hours
-* Instructor: [Badri Adhikari](http://umsl.edu/~adhikarib/)
+* Instructor (Facilitator): [Badri Adhikari](http://umsl.edu/~adhikarib/)
 * Email: [adhikarib@umsl.edu](mailto:adhikarib@umsl.edu)
 * Class meets: `Tuesdays 8:20PM - 9:35PM` (synchronously via Zoom)
 * Office hours: By appointment
