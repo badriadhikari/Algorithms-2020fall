@@ -9,7 +9,7 @@
 * Office hours: By appointment
 
 | [<img src="https://badriadhikari.github.io/badri-public-photo.jpg" align="middle" width="150"/>](https://badriadhikari.github.io/) | Instructor (Facilitator): [Badri Adhikari](http://umsl.edu/~adhikarib/) <br> Email: [adhikarib@umsl.edu](mailto:adhikarib@umsl.edu) <br> Class meets: `Tuesdays 8:20PM - 9:35PM` (synchronously via Zoom) <br> Office hours: By appointment |
-|:---:|:---:|
+|:---|:---|
 | [badriadhikari.github.io](https://badriadhikari.github.io/) | http://audioblocks.com |
 
 
