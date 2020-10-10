@@ -12,7 +12,7 @@
 
 | [![VideoBlocks](supporting_files/umsl.png)](http://umsl.edu/~adhikarib/)  | [![GraphicStock](http://www.graphicstock.com/images/logo.jpg)](http://graphicstock.com) |
 |:---:|:---:|
-| http://umsl.edu/~adhikarib/ | http://audioblocks.com | http://graphicstock.com |
+| http://umsl.edu/~adhikarib/ | http://audioblocks.com |
 
 
 ## 2. About the course (Official course description)
