@@ -134,12 +134,13 @@ The finals for this course will be in the form of a oral test, via Zoom one-on-o
 
 ## N. Grading scheme  
 
-| Points      | Grade | x | Points      | Grade | x | Points      | Grade |
-| ----------- | ----- | --- | ----------- | ----- | --- | ----------- | ----- |
-| 100% to 94% | A     |  | <84% to 80% | B-    |  | <70% to 67% | D+    |
-| <94% to 90% | A-    |  | <80% to 77% | C+    |  | <67% to 64% | D     |
-| <90% to 87% | B+    |  | <77% to 74% | C     |  | <64% to 61% | D-    |
-| <87% to 84% | B     |  | <74% to 70% | C-    |  | <61% to 0%  | F     |
+| Points      | Grade | 
+| ----------- | ----- |
+| 100% to 94% and <94% to 90% | A and A- |  
+| <90% to 87%, <87% to 84%, and <84% to 80% | B+, B, B- |
+| <80% to 77%, <77% to 74%, and <74% to 70% | C+, C, C- |
+| <70% to 67%, <67% to 64%, and <64% to 61% | D+, D, D- |
+| <61% to 0%  | F  |
 
    <img src="supporting_files/grades.png" align="middle" width="450"/>
 
