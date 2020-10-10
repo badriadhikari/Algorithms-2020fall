@@ -10,9 +10,10 @@
 
 # cat example.md
 
-| | |
-<img src="supporting_files/umsl.png" align="middle" width="350"/> | Instructor (Facilitator): [Badri Adhikari](http://umsl.edu/~adhikarib/) <br>
-Email: [adhikarib@umsl.edu](mailto:adhikarib@umsl.edu)
+| [![VideoBlocks](https://d1ow200m9i3wyh.cloudfront.net/img/assets/videoblocks/images/logo.png)](http://videoblocks.com)  | [![AudioBlocks](https://dtyn3c8zjrx01.cloudfront.net/img/assets/audioblocks/images/logo.png)](http://audioblocks.com) | [![GraphicStock](http://www.graphicstock.com/images/logo.jpg)](http://graphicstock.com) |
+|:---:|:---:|:---:|
+| http://videoblocks.com | http://audioblocks.com | http://graphicstock.com |
+
 
 ## 2. About the course (Official course description)
 * This course covers analysis of time and space complexity of iterative and recursive algorithms, design of data structures for efficient performance, mathematical modeling, dynamic programming, divide and conquer strategies, greedy algorithms, a collection of graph algorithms, linear and integer mathematical programming, and NP-Completeness. \[3 credit units\].
