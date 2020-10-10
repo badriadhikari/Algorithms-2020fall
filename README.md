@@ -2,7 +2,7 @@
 
 # Syllabus of Advanced Data Structures & Algorithms (CS 5130)
 
-## 1. Contact and office hours
+## 1. Contact info. and office hours
 
 | Instructor (facilitator) | Contact info. |
 |:---|:---|
