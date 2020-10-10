@@ -10,7 +10,7 @@
 
 # cat example.md
 
-| <img src="supporting_files/umsl.png" align="middle" width="350"/> | [![GraphicStock](http://www.graphicstock.com/images/logo.jpg)](http://graphicstock.com) |
+| <img src="https://badriadhikari.github.io/badri-public-photo.jpg" align="middle" width="300"/> | [![GraphicStock](http://www.graphicstock.com/images/logo.jpg)](http://graphicstock.com) |
 |:---:|:---:|
 | http://umsl.edu/~adhikarib/ | http://audioblocks.com |
 
