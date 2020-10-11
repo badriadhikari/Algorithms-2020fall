@@ -9,10 +9,10 @@
 | [<img src="./supporting_files/badri.jpg" align="middle" width="100"/>](https://badriadhikari.github.io/) | Instructor (Facilitator): [Badri Adhikari](http://umsl.edu/~adhikarib/) <br> Email: [`adhikarib@umsl.edu`](mailto:adhikarib@umsl.edu) <br> Class meets: Tuesdays 8:20PM - 9:35PM (synchronously via Zoom) <br> Office hours: By appointment |
 
 ## 2. Course description in UMSL catalog
-* This course covers analysis of time and space complexity of iterative and recursive algorithms, design of data structures for efficient performance, mathematical modeling, dynamic programming, divide and conquer strategies, greedy algorithms, a collection of graph algorithms, linear and integer mathematical programming, and NP-Completeness. \[3 credit units\].
+This course covers analysis of time and space complexity of iterative and recursive algorithms, design of data structures for efficient performance, mathematical modeling, dynamic programming, divide and conquer strategies, greedy algorithms, a collection of graph algorithms, linear and integer mathematical programming, and NP-Completeness. \[3 credit units\].
 
 ## 3. Prerequisites  
-* Graduate Standing in CS
+Graduate Standing in CS
 
 ## 4. Textbook  
 CLRS 3rd Edition (ISBN 978-0-262-03384-8 or ISBN 978-0-262-53305-8); at [amazon](https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844#ace-g7448806443).
@@ -104,7 +104,7 @@ CLRS 3rd Edition (ISBN 978-0-262-03384-8 or ISBN 978-0-262-53305-8); at [amazon]
 * Lecture recordings, audio or video, are not permitted.
 
 ## 8. Programming language
-* You are recommended (but not required) to use Python3 for all of your homeworks and project. If you have a reason to use a different programming language (for example if your background is in C++ or Java), please send me an email and I can approve you to use a language of your choice.
+You are recommended (but not required) to use Python3 for all of your homeworks and project. If you have a reason to use a different programming language (for example if your background is in C++ or Java), please send me an email and I can approve you to use a language of your choice.
 
 ## 9. Due dates and late policy  
 * You can request a maximum two-day extension on any homeworks - for up to two submissions. 
@@ -115,24 +115,25 @@ CLRS 3rd Edition (ISBN 978-0-262-03384-8 or ISBN 978-0-262-53305-8); at [amazon]
 The finals for this course will be in the form of a oral test, via Zoom one-on-one meetings. Each meeting may be up to 60 minutes long. Although some oral questions may check your understanding of the concepts, questions on the oral test will mostly focus on the details. Questions in the oral test will be from your own homework submissions. I will randomly pick one of your homework submissions, and ask you some details. Some students who have done exceptionally well may be exempt from the oral test. I will send an email to you if you are exempt, you cannot email and ask to be exempt. Closer to the finals week, you will be able to sign-up to select a time that works for you. Here is an example question:
 * In your homework number 3, in paragraph 5, you discuss X and Y. Please mention the purpose of X.
 
-## 11. Attendance
-* Attendance will be recorded sometimes.
-
-## 12. Project
+## 11. Project
 * In the semester long-project you are expected to demonstrate an implementation of some practical application of algorithms. You are free to work on "any" project related to any of the algorithms we discuss in class. There are no specific requirements.
 * Here is an example project by a student who took this course in Fall 2018 - [MAZE-A-TRON game using BFS](http://umsl.edu/~adhikarib/cs4130-fall2017/student-projects/mazeatron/) [report](http://umsl.edu/~adhikarib/cs4130-fall2017/student-projects/mazeatron-report.pdf)
 
-## 13. Homeworks
-* There will be some homeworks from each chapter that we cover. Many of the homeworks will require you to implement algorithms. These programming homeworks carry more weights. Some homeworks will require you to trace an algorithm (in paper) and submit your solution. You can take a picture of your solution and submit in Canvas.
+## 12. Homeworks
+* There will be some homeworks from each chapter that we cover. Many of the homeworks will require you to implement algorithms. These *programming homeworks carry more weights*. Some homeworks will require you to trace an algorithm (in paper) and submit your solution. You can take a picture of your solution and submit in Canvas.
 
-## 14. Grade composition  
-* Homeworks (including programming homeworks) = 50 points
-* Project = 10 points
-* Mid-term oral exam = 10 points (updated on 09/22)
-* Final oral exam = 30 points
-* 1 bonus point to everyone who complete the course evaluation survey (please email me once you submit the survey)
+## 13. Grade composition  
 
-## 15. Grading scheme  
+| Submission | Points |
+| --- | --- |
+| Homeworks | 50 |
+| Project | 10 |
+| Mid-term oral exam | 10 |
+| Final oral exam | 30 |
+
+Note: One (1) bonus point will be assigned to everyone who completes the course evaluation survey. Please email me once you submit the survey.
+
+## 14. Grading scheme  
 
 | Points      | Grade |
 | ----------- | ----- |
@@ -149,7 +150,7 @@ The finals for this course will be in the form of a oral test, via Zoom one-on-o
 | <64% to 61% | D-    |
 | <61% to 0%  | F     |
 
-## 16. Resources
+## 15. Resources
 Your success in this class is important to me. If you need official accommodations, you have a right to have these met. If there are aspects of this course that prevent you from learning or exclude you, please let me know as soon as possible. Together we’ll develop strategies to meet both your needs and the requirements of the course. I encourage you to visit the following links to determine how you could improve your learning as well. 
 
 * [Resources & Support](https://umsl.instructure.com/courses/44471/pages/student-resources-and-supports?module_item_id=454221)
