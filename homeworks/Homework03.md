@@ -49,3 +49,19 @@ Let X = ⟨x 1 , x 2 , …, x m ⟩ and Y = ⟨y 1 , y 2 , …, y n ⟩ be seque
 and Y. Describe, mathematically, how the LCS problem exhibits the optimal substructure property. (Hint:
 consider three cases).
 
+## Question 8
+
+Someone has the following as the top-down dynamic programming implementation for calculating nth Fibonacci number. Is this correct? Discuss.
+```python
+def fib_top_down(n):
+    result = [0] * (n + 1)
+    if n == 0:
+        return 0 
+    elif n == 1 or n == 2:
+        return 1
+    if result[n] != 0:
+        return result[n]
+    result[n] = fib_top_down(n-1) + fib_top_down(n-2)
+    return result[n]
+```
+
