@@ -1,4 +1,4 @@
-<img src="supporting_files/umsl.png" align="middle" width="350"/>
+<img src="supporting_files/umsl.png" align="middle" width="300"/>
 
 # Syllabus of Advanced Data Structures & Algorithms (CS 5130)
 
