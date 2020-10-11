@@ -51,7 +51,7 @@ consider three cases).
 
 ## Question 8
 
-Someone has the following as the top-down dynamic programming implementation for calculating nth Fibonacci number. Is this correct? Discuss.
+Someone has implemented the following as the top-down dynamic programming implementation for calculating nth Fibonacci number. Is this correct? Discuss.
 ```python
 def fib_top_down(n):
     result = [0] * (n + 1)
