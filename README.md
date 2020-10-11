@@ -8,7 +8,7 @@
 |:---|:---|
 | [<img src="./supporting_files/badri.jpg" align="middle" width="100"/>](https://badriadhikari.github.io/) | Instructor (Facilitator): [Badri Adhikari](http://umsl.edu/~adhikarib/) <br> Email: [`adhikarib@umsl.edu`](mailto:adhikarib@umsl.edu) <br> Class meets: Tuesdays 8:20PM - 9:35PM (synchronously via Zoom) <br> Office hours: By appointment |
 
-## 2. About the course (Official course description)
+## 2. Course description in UMSL catalog
 * This course covers analysis of time and space complexity of iterative and recursive algorithms, design of data structures for efficient performance, mathematical modeling, dynamic programming, divide and conquer strategies, greedy algorithms, a collection of graph algorithms, linear and integer mathematical programming, and NP-Completeness. \[3 credit units\].
 
 ## 3. Prerequisites  
