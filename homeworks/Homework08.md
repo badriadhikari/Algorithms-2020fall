@@ -7,13 +7,10 @@ Please read this with the goal of using the knowledge to do the homework below.
 [The muddy city problem](./muddy_city_problem.md)
 
 ## Watch lectures
-1. [??](??)
-
 1. [What are trees and spanning trees?](https://youtu.be/qD6taefu3-Q)
-1. [What is a minimum spanning tree](https://youtu.be/5INWifzqStU) 
+1. [What is a minimum spanning tree](https://youtu.be/5INWifzqStU)
 1. [Intuition of Kurskal's algorithm](https://youtu.be/AYC1N2QG_VM)
 1. [Intuition of Prim's algorithm](https://youtu.be/c0KKW9Fcve4)
-
 
 ## Question 1
 Assign the houses in the muddy city map, the names of US states. Assume that paving the bridge costs thrice more than a stone. Obtain a solution using your own intuition (hit and trial). Verify your solution using the NetworkX library (see example code block below).
