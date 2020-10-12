@@ -35,6 +35,7 @@ Say that we have a larger muddy city with `N` houses. To interconnect all the ho
 
 ## Apply Prim's and Kruskal's algorithm to the follwoing
 
+## Create your own MST
 
 ## Question (last)
 A *dense graph* is a graph in which the number of edges is close to the maximal number of edges, and a *sparse graph* is a graph in which the number of edges is close to the minimal number of edges. The running time Kruskal’s algorithm is O(E lg V) and the running time of Prim’s algorithm (when we use Fibonacci heap for priority queue) is O(E + V lgV). Is the following statement correct, "Prim's algorithm is a better (faster) choice when you want to find MST for a dense graph"? Explain.
