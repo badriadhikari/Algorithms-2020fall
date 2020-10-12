@@ -9,9 +9,12 @@ Please read this with the goal of using the knowledge to do the homework below.
 ## Watch lectures
 1. [??](??)
 
+[What are trees and spanning trees?](https://youtu.be/qD6taefu3-Q)
+[What is a minimum spanning tree](https://youtu.be/5INWifzqStU)
+
 
 ## Question 1
-Assign the houses in the muddy city map, the names of US states. Assume that paving the bridge costs thrice more than a stone. Verify your solution using the NetworkX library (see example code block below).
+Assign the houses in the muddy city map, the names of US states. Assume that paving the bridge costs thrice more than a stone. Obtain a solution using your own intuition (hit and trial). Verify your solution using the NetworkX library (see example code block below).
 
 ```python
 import networkx as nx
