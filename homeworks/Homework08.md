@@ -10,8 +10,12 @@ Please read this with the goal of using the knowledge to do the homework below.
 1. [What are trees and spanning trees?](https://youtu.be/qD6taefu3-Q)
 1. [What is a minimum spanning tree](https://youtu.be/5INWifzqStU)
 1. [Intuition of Kurskal's algorithm](https://youtu.be/AYC1N2QG_VM)
+1. [Watch how Kruskal's algorithm grows the MST](https://en.wikipedia.org/wiki/Kruskal%27s_algorithm#/media/File:KruskalDemo.gif)
 1. [Intuition of Prim's algorithm](https://youtu.be/c0KKW9Fcve4)
-1. [Watch how Prim's algorithm grows](https://en.wikipedia.org/wiki/Prim%27s_algorithm#/media/File:PrimAlgDemo.gif)
+1. [Watch how Prim's algorithm grows the MST](https://en.wikipedia.org/wiki/Prim%27s_algorithm#/media/File:PrimAlgDemo.gif)
+1. [The Find() and Union() methods in disjoint set](https://youtu.be/UBY4sF86KEY) (only the first two minutes, i.e. skip the implementation)
+1. [The Kruskal's algorithm](https://youtu.be/5xosHRdxqHA?t=83)(only up to 4:43, i.e. skip the implementation)
+1. 
 
 
 ## Question 1
