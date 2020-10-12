@@ -14,7 +14,7 @@ Please read this with the goal of using the knowledge to do the homework below.
 1. [Intuition of Prim's algorithm](https://youtu.be/c0KKW9Fcve4)
 1. [Watch how Prim's algorithm grows the MST](https://en.wikipedia.org/wiki/Prim%27s_algorithm#/media/File:PrimAlgDemo.gif)
 1. [The Find() and Union() methods in disjoint set](https://youtu.be/UBY4sF86KEY) (only the first two minutes, i.e. skip the implementation)
-1. [The Kruskal's algorithm](https://youtu.be/5xosHRdxqHA?t=83)(only up to 4:43, i.e. skip the implementation)
+1. [The Kruskal's algorithm](https://youtu.be/5xosHRdxqHA?t=83) (only up to 4:43, i.e. skip the implementation)
 1. 
 
 
