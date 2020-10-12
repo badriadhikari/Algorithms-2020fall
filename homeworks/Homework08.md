@@ -9,11 +9,10 @@ Please read this with the goal of using the knowledge to do the homework below.
 ## Watch lectures
 1. [??](??)
 
-[What are trees and spanning trees?](https://youtu.be/qD6taefu3-Q)
-[What is a minimum spanning tree](https://youtu.be/5INWifzqStU)
-
-[Intuition of Kurskal's algorithm](https://youtu.be/AYC1N2QG_VM)
-
+1. [What are trees and spanning trees?](https://youtu.be/qD6taefu3-Q)
+1. [What is a minimum spanning tree](https://youtu.be/5INWifzqStU) 
+1. [Intuition of Kurskal's algorithm](https://youtu.be/AYC1N2QG_VM)
+1. [Intuition of Prim's algorithm](https://youtu.be/c0KKW9Fcve4)
 
 
 ## Question 1
