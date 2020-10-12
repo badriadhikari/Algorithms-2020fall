@@ -37,5 +37,20 @@ Say that we have a larger muddy city with `N` houses. To interconnect all the ho
 
 ## Create your own MST
 
+## Question 2
+Consider the Prim's algorithm below. We are interested to calculate the runnign time of the algorithm in terms of big-O by analyzing the time taken by the various parts of the algorithm. The total time for all calls to `Extract-Min(Q)` operations is `O(V * time for Extract-Min())`. We scan the adjacency list of each vertex once which takes `O(E)` time. Let’s assume that the time needed for ‘v.𝝅 = u’ and ‘v.key = w(u,v)’ is ‘t’ so that total time is O(t * E). Every time a ‘v.key’ ‘v.𝝅’ are updated, the priority queue (heap) has to be updated. 
+
+
+A priority queue's `Extract-Min(Q)` operation can take [various running times](https://en.wikipedia.org/wiki/Priority_queue) based on the implementation. 
+If priority queue is implemented using binary min-heap:
+Time for Extract-Min(Q) = O(lgV)
+If priority queue is implemented using Fibonacci heap:
+Time for Extract-Min(Q) = O(1)
+* Part I:
+* Part II:
+* Part III:
+
+Calculate the total time complexity (in terms of the three parts if (a) fibonacci heap is used, (b) binary heap is used.
+
 ## Question (last)
 A *dense graph* is a graph in which the number of edges is close to the maximal number of edges, and a *sparse graph* is a graph in which the number of edges is close to the minimal number of edges. The running time Kruskal’s algorithm is O(E lg V) and the running time of Prim’s algorithm (when we use Fibonacci heap for priority queue) is O(E + V lgV). Is the following statement correct, "Prim's algorithm is a better (faster) choice when you want to find MST for a dense graph"? Explain.
