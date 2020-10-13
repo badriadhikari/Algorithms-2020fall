@@ -49,19 +49,14 @@ Showing all the intermediate steps, obtain a MST using Kruskal's algorithm for t
 Showing all the intermediate steps, obtain a MST using Prim's algorithm for the graph above (same graph). Assume that the following weights between the nodes that have missing weights: A-B:11, B-C:9, A-F:12, F-G:13, and G-H:4. Note that the weights are slightly different. An example solution, for a different problem, is [here](./prims_example.pdf). After obtaining the answer, verify your solution using the NetworkX library.
 
 ## Question 5
-Consider the Prim's algorithm below. We are interested to calculate the running time of the algorithm in terms of big-O by analyzing the time taken by the various segments of the algorithm.
+Consider the Prim's algorithm below.
+
+<img src="prims_running_time.png" align="middle" width="550"/>
+
+We are interested to calculate the time complexity (running time) of the algorithm in terms of big-O by analyzing the time taken by the various segments of the algorithm.
 * Segment 1. These initializations take O(V) time.
-* Segment 2. The total time for all calls to `Extract-Min(Q)` operations is `O(V * time for Extract-Min())`. A priority queue's `Extract-Min(Q)` operation can take [various running times](https://en.wikipedia.org/wiki/Priority_queue) based on the implementation. 
-* Segment 3. We scan the adjacency list of each vertex once which takes `O(E)` time. Let’s assume that the time needed for ‘v.𝝅 = u’ and ‘v.key = w(u,v)’ is ‘t’ so that total time is O(t * E). Every time a ‘v.key’ ‘v.𝝅’ are updated, the priority queue (heap) has to be updated. 
-
-
-If priority queue is implemented using binary min-heap:
-Time for Extract-Min(Q) = O(lgV)
-If priority queue is implemented using Fibonacci heap:
-Time for Extract-Min(Q) = O(1)
-
-
-<img src="prims_running_time.png" align="middle" width="400"/>
+* Segment 2. The total time for all calls to `Extract-Min(Q)` operations is `O(V * time for Extract-Min())`. A priority queue's `Extract-Min(Q)` operation can take [various running times](https://en.wikipedia.org/wiki/Priority_queue) based on the implementation. If the priority queue is implemented using binary min-heap, the time complexity of `Extract-Min(Q)` is `O(lgV)`. On the other hand, if priority queue is implemented using Fibonacci heap, the time complexity is `O(1)`.
+* Segment 3. We scan the adjacency list of each vertex once which takes `O(E)` time. Let’s assume that the time needed for `v.𝝅 = u` and `v.key = w(u,v)` is `t` so that total time is `O(t * E)`. Every time the `v.key` and `v.𝝅` are updated, the priority queue (heap) has to be updated.
 
 Calculate the total time complexity (in terms of the three parts if (a) fibonacci heap is used, (b) binary heap is used.
 
