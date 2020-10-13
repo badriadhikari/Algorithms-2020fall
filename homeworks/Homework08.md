@@ -1,6 +1,6 @@
 # Homework 8
 
-## Read sections 23.1,  from CLRS (skip all theoretical proofs)
+## Read sections 23.1 and 23.5 from CLRS
 Please read this with the goal of using the knowledge to do the homework below.
 
 ## Understand the muddy city problem
