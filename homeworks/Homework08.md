@@ -58,7 +58,7 @@ We are interested to calculate the time complexity (running time) of the algorit
 * Segment 2. The total time for all calls to `Extract-Min(Q)` operations is `O(V * time for Extract-Min(Q))`. A priority queue's `Extract-Min(Q)` operation can take [various running times](https://en.wikipedia.org/wiki/Priority_queue) based on the implementation. If the priority queue is implemented using binary min-heap, the time complexity of `Extract-Min(Q)` is `O(lgV)`. On the other hand, if priority queue is implemented using Fibonacci heap, the time complexity is `O(1)`.
 * Segment 3. We scan the adjacency list of each vertex once which takes `O(E)` time. Let’s assume that the time needed for `v.𝝅 = u` and `v.key = w(u,v)` is `t` so that total time is `O(t * E)`. Every time the `v.key` and `v.𝝅` are updated, the priority queue (heap) has to be updated.
 
-Calculate the total time complexity, in terms of the three segments, if (a) Fibonacci heap is used, (b) binary heap is used.
+Calculate the time complexity of the `MST-PRIM()` in terms of the three segments, if (a) Fibonacci heap is used, (b) binary heap is used.
 
 ## Question 6
 A *dense graph* is a graph in which the number of edges is close to the maximal number of edges, and a *sparse graph* is a graph in which the number of edges is close to the minimal number of edges. The running time Kruskal’s algorithm is O(E lg V) and the running time of Prim’s algorithm (when we use Fibonacci heap for priority queue) is O(E + V lgV). Is the following statement correct, "Prim's algorithm is a better (faster) choice when you want to find MST for a dense graph"? Explain.
