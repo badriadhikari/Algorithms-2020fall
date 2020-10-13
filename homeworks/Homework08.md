@@ -67,4 +67,4 @@ A *dense graph* is a graph in which the number of edges is close to the maximal 
 One may argue that for a problem such as the muddy city problem, if a few 'genius' people an hour or two on the problem then there is no need to find a 'computer programmer' to translate the problem into a programming problem and run these MST algorithms to find a solution. In addition, the person may further argue that having an algorithm is enough, there is no need to analyze the big-O and precisely choose an algorithm. Do you agree? Provide your reasons. Hint: Read the [applications of MST algorithms](https://en.wikipedia.org/wiki/Spanning_tree).
 
 ## Question 8
-How does the **cut property** apply to (a) Kruskal's algorithm, and (b) Prim's algorithm?
+How does the **cut property** apply to (a) Kruskal's algorithm, and (b) Prim's algorithm? Hint: Rewatch the the lectures that explain how the two algorithms work and analyze the connection between the cut property and the two algorithms.
