@@ -48,11 +48,11 @@ Showing all the intermediate steps, obtain a MST using Kruskal's algorithm for t
 ## Question 4
 Showing all the intermediate steps, obtain a MST using Prim's algorithm for the graph above (same graph). Assume that the following weights between the nodes that have missing weights: A-B:11, B-C:9, A-F:12, F-G:13, and G-H:4. Note that the weights are slightly different. An example solution, for a different problem, is [here](./prims_example.pdf). After obtaining the answer, verify your solution using the NetworkX library.
 
-## Create your own MST
-
-## Question 2
-Consider the Prim's algorithm below. We are interested to calculate the runnign time of the algorithm in terms of big-O by analyzing the time taken by the various parts of the algorithm. The total time for all calls to `Extract-Min(Q)` operations is `O(V * time for Extract-Min())`. We scan the adjacency list of each vertex once which takes `O(E)` time. Let’s assume that the time needed for ‘v.𝝅 = u’ and ‘v.key = w(u,v)’ is ‘t’ so that total time is O(t * E). Every time a ‘v.key’ ‘v.𝝅’ are updated, the priority queue (heap) has to be updated. 
-
+## Question 5
+Consider the Prim's algorithm below. We are interested to calculate the running time of the algorithm in terms of big-O by analyzing the time taken by the various parts of the algorithm.
+* Part 1. The total time for all calls to `Extract-Min(Q)` operations is `O(V * time for Extract-Min())`. We scan the adjacency list of each vertex once which takes `O(E)` time. Let’s assume that the time needed for ‘v.𝝅 = u’ and ‘v.key = w(u,v)’ is ‘t’ so that total time is O(t * E). Every time a ‘v.key’ ‘v.𝝅’ are updated, the priority queue (heap) has to be updated. 
+* Part 2.
+* Part 3. 
 
 A priority queue's `Extract-Min(Q)` operation can take [various running times](https://en.wikipedia.org/wiki/Priority_queue) based on the implementation. 
 If priority queue is implemented using binary min-heap:
@@ -63,7 +63,7 @@ Time for Extract-Min(Q) = O(1)
 * Part II:
 * Part III:
 
-<img src="prims_running_time.png" align="middle" width="550"/>
+<img src="prims_running_time.png" align="middle" width="400"/>
 
 Calculate the total time complexity (in terms of the three parts if (a) fibonacci heap is used, (b) binary heap is used.
 
