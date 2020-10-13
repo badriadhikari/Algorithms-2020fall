@@ -7,14 +7,20 @@ Please read this with the goal of using the knowledge to do the homework below.
 [The muddy city problem](./muddy_city_problem.md)
 
 ## Watch lectures
+What is a minimum spanning tree?
 1. [What are trees and spanning trees?](https://youtu.be/qD6taefu3-Q)
 1. [What is a minimum spanning tree](https://youtu.be/5INWifzqStU)
-1. [Intuition of Kurskal's algorithm](https://youtu.be/AYC1N2QG_VM) [Kruskal's GIF](https://en.wikipedia.org/wiki/Kruskal%27s_algorithm#/media/File:KruskalDemo.gif)
+The Kruskal's algorithm
+1. [Intuition of Kurskal's algorithm](https://youtu.be/AYC1N2QG_VM)
+1. [Kruskal's GIF](https://en.wikipedia.org/wiki/Kruskal%27s_algorithm#/media/File:KruskalDemo.gif)
 1. [The Find() and Union() methods in disjoint set](https://youtu.be/UBY4sF86KEY) (only the first two minutes, i.e. skip the implementation)
 1. [Tracing the Kruskal's algorithm](https://youtu.be/5xosHRdxqHA?t=83) (only up to 4:43, i.e. skip the implementation)
-1. [Intuition of Prim's algorithm](https://youtu.be/c0KKW9Fcve4) [Prim's GIF](https://en.wikipedia.org/wiki/Prim%27s_algorithm#/media/File:PrimAlgDemo.gif)
+The Prim's algorithm
+1. [Intuition of Prim's algorithm](https://youtu.be/c0KKW9Fcve4)
+1. [Prim's GIF](https://en.wikipedia.org/wiki/Prim%27s_algorithm#/media/File:PrimAlgDemo.gif)
 1. [Tracing the Prim's algorithm](https://youtu.be/z1L3rMzG1_A) (first five minutes only, i.e. skip the implementation)
-1. [Why do the Kruskal's and Prim's algorithms work - The cut property](https://youtu.be/QYdZS4S-FyU)
+How do the Kruskal's and Prim's algorithms work?
+1. [The cut property](https://youtu.be/QYdZS4S-FyU)
 
 ## Question 1
 Assign the houses in the muddy city map, the names of US states. Assume that paving the bridge costs thrice more than a stone. Obtain a solution using your own intuition (hit and trial). Verify your solution using the NetworkX library (see example code block below).
