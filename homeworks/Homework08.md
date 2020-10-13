@@ -43,7 +43,7 @@ Say that we have a larger muddy city with `N` houses. To interconnect all the ho
 ## Question 3
 Showing all the intermediate steps, obtain a MST using Kruskal's algorithm for the graph below. Assume that the following weights between the nodes that have missing weights: A-B:11, B-C:9, A-F:2, F-G:13, and G-H:4. An example solution, for a different problem, is [here](./kruskals_example.pdf). After obtaining the answer, verify your solution using the NetworkX library.
 
-<img src="mst_problem.png" align="middle" width="550"/>
+<img src="mst_problem.png" align="center" width="400"/>
 
 ## Question 4
 Showing all the intermediate steps, obtain a MST using Prim's algorithm for the graph above (same graph). Assume that the following weights between the nodes that have missing weights: A-B:11, B-C:9, A-F:12, F-G:13, and G-H:4. Note that the weights are slightly different. An example solution, for a different problem, is [here](./prims_example.pdf). After obtaining the answer, verify your solution using the NetworkX library.
