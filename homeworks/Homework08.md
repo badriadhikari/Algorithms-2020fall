@@ -51,7 +51,7 @@ Showing all the intermediate steps, obtain a MST using Prim's algorithm for the 
 ## Question 5
 Consider the Prim's algorithm below.
 
-<img src="prims_running_time.png" align="middle" width="550"/>
+<img src="prims_run_time.png" align="middle" width="550"/>
 
 We are interested to calculate the time complexity (running time) of the algorithm in terms of big-O by analyzing the time taken by the various segments of the algorithm.
 * Segment 1. These initializations take O(V) time.
