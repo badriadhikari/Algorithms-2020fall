@@ -49,7 +49,7 @@ Showing all the intermediate steps, obtain a MST using Kruskal's algorithm for t
 Showing all the intermediate steps, obtain a MST using Prim's algorithm for the graph above (same graph). Assume that the following weights between the nodes that have missing weights: A-B:11, B-C:9, A-F:12, F-G:13, and G-H:4. Note that the weights are slightly different. An example solution, for a different problem, is [here](./prims_example.pdf). After obtaining the answer, verify your solution using the NetworkX library.
 
 ## Question 5
-Consider the Prim's algorithm below. Here, `G` represents the graph, `w` is the 2D weight matrix, and `r` is the starting vertex.
+Consider the Prim's algorithm below. Here, `G` represents the graph, `w` is the 2D weight matrix, and `r` is the starting vertex. `Q` is a minimum priority queue. `v.key` is the distance from the current minimum spanning tree to `v` and `v.𝝅` is for storing the parent of `v`. 
 
 <img src="prims_run_time.png" align="middle" width="550"/>
 
