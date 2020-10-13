@@ -60,9 +60,9 @@ We are interested to calculate the time complexity (running time) of the algorit
 
 Calculate the total time complexity, in terms of the three segments, if (a) fibonacci heap is used, (b) binary heap is used.
 
-## Question (last)
+## Question 6
 A *dense graph* is a graph in which the number of edges is close to the maximal number of edges, and a *sparse graph* is a graph in which the number of edges is close to the minimal number of edges. The running time Kruskal’s algorithm is O(E lg V) and the running time of Prim’s algorithm (when we use Fibonacci heap for priority queue) is O(E + V lgV). Is the following statement correct, "Prim's algorithm is a better (faster) choice when you want to find MST for a dense graph"? Explain.
 
-## Question 3
+## Question 7
 One may argue that for a problem such as the muddy city problem, if a few 'genious' people an hour or two on the problem then there is no need to find a 'computer programmer' to translate the problem into a programming problem and run these MST agorithms to find a solution. In addition, the person may further argue that having an algorithm is enough, there is no need to analyze the big-O and precisely choose an algorithm. Do you agree? Provide your reasons. Hint: Read the [applications of MST algorithms](https://en.wikipedia.org/wiki/Spanning_tree).
 
