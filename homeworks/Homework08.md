@@ -9,7 +9,7 @@ Please read this with the goal of using the knowledge to do the homework below.
 ## Watch lectures
 What is a minimum spanning tree?
 1. [What are trees and spanning trees?](https://youtu.be/qD6taefu3-Q)
-1. [What is a minimum spanning tree](https://youtu.be/5INWifzqStU)
+1. [What is a minimum spanning tree?](https://youtu.be/5INWifzqStU)
 
 The Kruskal's algorithm
 1. [Intuition of Kruskal's algorithm](https://youtu.be/AYC1N2QG_VM)
