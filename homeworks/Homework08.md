@@ -50,6 +50,8 @@ Time for Extract-Min(Q) = O(1)
 * Part II:
 * Part III:
 
+prims_running_time.png
+
 Calculate the total time complexity (in terms of the three parts if (a) fibonacci heap is used, (b) binary heap is used.
 
 ## Question (last)
