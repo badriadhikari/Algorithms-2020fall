@@ -41,12 +41,12 @@ nx.draw(G, alpha = 0.8, with_labels = True)
 Say that we have a larger muddy city with `N` houses. To interconnect all the houses, we can use an arrangement of `N-1` roads, each connecting two houses. Assuming that the cost of connecting any two houses is fixed (same), how many arrangements are possible (in terms of N)? Hint: Consider the worst case scenario, i.e. the graph could be a [complete graph](https://en.wikipedia.org/wiki/Complete_graph).
 
 ## Question 3 (partial programming)
-Showing all the intermediate steps, obtain a MST using Kruskal's algorithm for the graph below. Assume that the following weights between the nodes that have missing weights: A-B:11, B-C:9, A-F:2, F-G:13, and G-H:4. An example solution, for a different problem, is [here](./kruskals_example.pdf). After obtaining the answer, verify your solution using the NetworkX library.
+Showing all the intermediate steps, obtain a MST using Kruskal's algorithm for the graph below. Assume the following weights between the nodes that have missing weights: A-B:11, B-C:9, A-F:2, F-G:13, and G-H:4. An example solution, for a different problem, is [here](./kruskals_example.pdf). After obtaining the answer, verify your solution using the NetworkX library.
 
 <img src="mst_problem.png" align="center" width="300"/>
 
 ## Question 4 (partial programming)
-Showing all the intermediate steps, obtain a MST using Prim's algorithm for the graph above (same graph). Assume that the following weights between the nodes that have missing weights: A-B:11, B-C:9, A-F:12, F-G:13, and G-H:4. Note that the weights are slightly different. An example solution, for a different problem, is [here](./prims_example.pdf). After obtaining the answer, verify your solution using the NetworkX library.
+Showing all the intermediate steps, obtain a MST using Prim's algorithm for the graph above (same graph but slightly different weights). Assume the following weights between the nodes that have missing weights: A-B:11, B-C:9, A-F:12, F-G:13, and G-H:4. Note that the weights are slightly different. An example solution, for a different problem, is [here](./prims_example.pdf). After obtaining the answer, verify your solution using the NetworkX library.
 
 ## Question 5
 Consider the Prim's algorithm below. Here, `G` represents the graph, `w` is the 2D weight matrix, and `r` is the starting vertex. `Q` is a minimum priority queue. `v.key` is the distance from the current minimum spanning tree to `v` and `v.𝝅` is for storing the parent of `v`. 
