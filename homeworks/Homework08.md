@@ -35,6 +35,8 @@ Say that we have a larger muddy city with `N` houses. To interconnect all the ho
 
 ## Apply Prim's and Kruskal's algorithm to the follwoing
 
+<img src="mst_problem.png" align="middle" width="550"/>
+
 Example is provided here. Here.
 
 ## Create your own MST
@@ -52,7 +54,7 @@ Time for Extract-Min(Q) = O(1)
 * Part II:
 * Part III:
 
-prims_running_time.png
+<img src="prims_running_time.png" align="middle" width="550"/>
 
 Calculate the total time complexity (in terms of the three parts if (a) fibonacci heap is used, (b) binary heap is used.
 
