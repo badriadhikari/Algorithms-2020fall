@@ -111,7 +111,7 @@ You are recommended (but not required) to use Python3 for all of your homeworks 
 * If you email me a few hours before a deadline and I don't reply you immediately, and if you have not used your two-day extensions, you can assume that the extension is granted automatically.
 * Once you use your extension days, late submissions will get no points.
 
-## 10. One-on-one meeting with the instructor
+## 10. Required one-on-one meeting with the instructor
 The mid-term and the final for this course will be in the form of one-on-one interaction with the instructor, via Zoom. Each meeting may be up to 30 minutes long. The meeting will be an opportunity for us to discuss how you are doing in the course. During the meeting we may walk through your homework submissions and explore the aspects of the course that you are struggling with (if there are any). If we find that you are struggling to understand some key concepts and/or unable to complete some assignments, you may be suggested resources so you can do better in the remaining assignments. Please check to make sure that you have submitted all your homeworks and assignments that are due. This will also be an opportunity for you to provide feedbacks. In very rare cases, if I have suspected any plagiarism in your homework submissions, I may also enquire you about it. Closer to the meeting dates, you will be able to sign-up to select a time that works for you during a period of 2/3 days. In order to receive points, you must schedule and attend the one-on-one meetings. 
 
 ## 11. Project
