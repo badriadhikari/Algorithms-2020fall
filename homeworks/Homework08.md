@@ -35,6 +35,8 @@ Say that we have a larger muddy city with `N` houses. To interconnect all the ho
 
 ## Apply Prim's and Kruskal's algorithm to the follwoing
 
+Example is provided here. Here.
+
 ## Create your own MST
 
 ## Question 2
