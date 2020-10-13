@@ -26,7 +26,7 @@ How do the Kruskal's and Prim's algorithms work?
 1. [The cut property](https://youtu.be/QYdZS4S-FyU)
 
 ## Question 1
-Assign the houses in the muddy city map, the names of US states. In other words, assign US state names to the houses. Assume that paving the bridge costs thrice more than a stone. Obtain a solution using your own intuition (hit and trial), without using any computing techniques. Verify your solution using the NetworkX library (see example code block below).
+Assign the houses in the muddy city map, the names of US states. In other words, assign US state names to the houses. Assume that paving the bridge costs **thrice** more than a stone. Obtain a solution using your own intuition (hit and trial), without using any computing techniques. Verify your solution using the NetworkX library (see example code block below).
 
 ```python
 import networkx as nx
