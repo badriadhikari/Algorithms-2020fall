@@ -1,6 +1,6 @@
-# Homework 8 (todo)
+# Homework 8
 
-## Read sections xxxxx from CLRS (skip all theoretical proofs)
+## Read sections 23.1,  from CLRS (skip all theoretical proofs)
 Please read this with the goal of using the knowledge to do the homework below.
 
 ## Understand the muddy city problem
@@ -26,7 +26,7 @@ How do the Kruskal's and Prim's algorithms work?
 1. [The cut property](https://youtu.be/QYdZS4S-FyU)
 
 ## Question 1
-Assign the houses in the muddy city map, the names of US states. Assume that paving the bridge costs thrice more than a stone. Obtain a solution using your own intuition (hit and trial). Verify your solution using the NetworkX library (see example code block below).
+Assign the houses in the muddy city map, the names of US states. In other words, assin US state names to the houses. Assume that paving the bridge costs thrice more than a stone. Obtain a solution using your own intuition (hit and trial), without using any computing techniques. Verify your solution using the NetworkX library (see example code block below).
 
 ```python
 import networkx as nx
@@ -40,8 +40,8 @@ nx.draw(G, alpha = 0.8, with_labels = True)
 ## Question 2
 Say that we have a larger muddy city with `N` houses. To interconnect all the houses we can use an arrangement of `N-1` roads, each connecting two houses. Assuming that the cost of connecting any two houses is fixed (same), how many arrangements are possible (in terms of N)? Hint: Consider the worst case scenario, i.e. the graph could be a [complete graph](https://en.wikipedia.org/wiki/Complete_graph).
 
-## Apply Prim's and Kruskal's algorithm to the follwoing
-
+## Question 3
+Showing all the intermediate steps, obtain a MST using Kruskal's algorithm for the following graph. Assume that the following weights between the nodes that have missing weights: 
 <img src="mst_problem.png" align="middle" width="550"/>
 
 Example is provided here. Here.
