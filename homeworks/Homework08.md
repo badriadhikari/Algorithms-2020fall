@@ -25,7 +25,7 @@ The Prim's algorithm
 How do the Kruskal's and Prim's algorithms work?
 1. [The cut property](https://youtu.be/QYdZS4S-FyU)
 
-## Question 1
+## Question 1 (partial programming)
 Assign the houses in the muddy city map, the names of US states. In other words, assign US state names to the houses. Assume that paving the bridge costs **thrice** more than a stone. Obtain a solution using your own intuition (hit and trial), without using any computing techniques. Verify your solution using the NetworkX library (see example code block below).
 
 ```python
@@ -40,12 +40,12 @@ nx.draw(G, alpha = 0.8, with_labels = True)
 ## Question 2
 Say that we have a larger muddy city with `N` houses. To interconnect all the houses, we can use an arrangement of `N-1` roads, each connecting two houses. Assuming that the cost of connecting any two houses is fixed (same), how many arrangements are possible (in terms of N)? Hint: Consider the worst case scenario, i.e. the graph could be a [complete graph](https://en.wikipedia.org/wiki/Complete_graph).
 
-## Question 3
+## Question 3 (partial programming)
 Showing all the intermediate steps, obtain a MST using Kruskal's algorithm for the graph below. Assume that the following weights between the nodes that have missing weights: A-B:11, B-C:9, A-F:2, F-G:13, and G-H:4. An example solution, for a different problem, is [here](./kruskals_example.pdf). After obtaining the answer, verify your solution using the NetworkX library.
 
 <img src="mst_problem.png" align="center" width="300"/>
 
-## Question 4
+## Question 4 (partial programming)
 Showing all the intermediate steps, obtain a MST using Prim's algorithm for the graph above (same graph). Assume that the following weights between the nodes that have missing weights: A-B:11, B-C:9, A-F:12, F-G:13, and G-H:4. Note that the weights are slightly different. An example solution, for a different problem, is [here](./prims_example.pdf). After obtaining the answer, verify your solution using the NetworkX library.
 
 ## Question 5
