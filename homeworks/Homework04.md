@@ -13,7 +13,7 @@ Please read this with the goal of using the knowledge to do the homework below.
 1. [Greedy algorithm vs dynamic programming](https://youtu.be/DXnQQVzfnRo)
 
 ## Question 1
-Explain the 'activity selection problem' by creating a problem of your own, with a table similar to the activity selection problem. You are free to create any problem, as long as it is similar to a standard activity selection problem.
+Explain the 'activity selection problem' by creating a problem of your own, with a table similar to the activity selection problem. With time in the X-axis, also show visually, the overlap between the activities. You are free to create any problem, as long as it is similar to a standard activity selection problem.
 
 ## Question 2 (programming)
 In Python, implement (a) a recursive solution, (b) a dynamic programming solution, (c) a recursive greey solution, and (d) an iterative greedy solution to the following activity selection problem. For implementing the recursive solution, the video on "Optimal substructure property" discusses a recursion equation. This recursive equation is in the book as well. Also the code code structure below may serve as a template for implementing the recursive solution.
