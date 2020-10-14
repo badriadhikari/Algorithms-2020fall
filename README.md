@@ -104,7 +104,7 @@ CLRS 3rd Edition (ISBN 978-0-262-03384-8 or ISBN 978-0-262-53305-8); at [amazon]
 * Keep yourself out of plagarism; Read [UMSL's Policy](https://www.umsl.edu/services/academic/policy/academic-dishonesty.html); Our `turnitin` tool automatically checks for plagarism.
 
 <p align="center">
-    <img src="supporting_files/academic_dishonesty.gif" align="middle" width="300"/>
+    <img src="supporting_files/academic_dishonesty.gif" align="middle" width="400"/>
 </p>
 
 ## 8. Programming language
