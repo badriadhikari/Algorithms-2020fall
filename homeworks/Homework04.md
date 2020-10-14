@@ -85,7 +85,7 @@ First activity, its start time, and finish time
 [(1, 4), (5, 7), (8, 11), (12, 16)]
 ```
 
-## Question 3 (programming)
+## Question 3 
 The iterative greedy activity selection algorithm has a running time of Ө(n). But the algorithm assumes that the activities are sorted by their finish times. If the activities are not sorted, how can we get the algorithm to work? What will be the new running time?
 
 ## Question 4
