@@ -92,7 +92,7 @@ The iterative greedy activity selection algorithm has a running time of Ө(n). B
 Discuss the difference/s between the greedy algorithm and the dynamic programming method with the help of the two versions of the knapsack problem. Include in your discussion how the greedy-choice property holds true only for one of the knapsack problems.
 
 ## Question 5 
-To solve the activity selection problem, the technique of sorting activities by their number of overlaps and then selecting the activities that have minimum overlaps with other activities, does not work. Illustrate this with a simple example.
+To solve the activity selection problem, the technique of sorting activities by their number of overlaps and then selecting the activities that have minimum overlaps with other activities, does not work. Illustrate this with a simple example. With time in the X-axis, also show visually, the overlap between the activities, when describing your example.
 
 ## Optional Question (possible bonus points)
 Discuss how the activity selection problem exhibits the optimal substructure property.
