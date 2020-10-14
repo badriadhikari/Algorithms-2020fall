@@ -121,7 +121,7 @@ The mid-term and the final for this course will be in the form of one-on-one int
 In the semester long-project you are expected to demonstrate an implementation of some practical application of algorithms. You are free to work on "any" project related to any of the algorithms we discuss in class. There are no specific requirements. You can be as creative as you want. Here is an example project by a student who took this course in Fall 2018 - [MAZE-A-TRON game using BFS](http://umsl.edu/~adhikarib/cs4130-fall2017/student-projects/mazeatron/), [project report](http://umsl.edu/~adhikarib/cs4130-fall2017/student-projects/mazeatron-report.pdf). It is recommended (NOT required) that you prepare your final report using Overleaf. [Here](https://www.overleaf.com/read/vgckqpfdyrwp) is an Overleaf template that you are welcome to use.
 
 ## 12. Homeworks
-* There will be some homeworks from each chapter that we cover. Many of the homeworks will require you to implement algorithms. These *programming homeworks carry more weights*. Some homeworks will require you to trace an algorithm (in paper) and submit your solution. You can take a picture of your solution and submit in Canvas.
+There will be some homeworks from each chapter that we cover. Many of the homeworks will require you to implement algorithms. These *programming homeworks carry more weights*. Some homeworks will require you to trace an algorithm (in paper) and submit your solution. You can take a picture of your solution and submit in Canvas.
 
 ## 13. Grade composition  
 
