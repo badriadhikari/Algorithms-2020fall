@@ -100,8 +100,10 @@ CLRS 3rd Edition (ISBN 978-0-262-03384-8 or ISBN 978-0-262-53305-8); at [amazon]
 | -      | 12/14                   | **Finals week (oral test)**                 |
 
 ## 7. General policies
-* Keep yourself out of plagarism; Read [UMSL's Policy](https://www.umsl.edu/services/academic/policy/academic-dishonesty.html); Our `turnitin` tool automatically checks for plagarism; Here is an [example](supporting_files/turn-it-in.png).
-* Lecture recordings, audio or video, are not permitted.
+* Academic dishonesty. Any form of academic dishonesty, in this class, will result in an F, for the semester, and the case will be referred to the provost's office for possible further disciplinary action, regardless of how trivial it is. Don't use another student's assignment (or a solution in the internet) to complete your own assignment. Discussing the material is 'OK', but do your work on your own. You should complete the homework along, not together, and not in a group. If you have any questions about any of the lessons or the assignments, please contact me, and I will point you in the right direction.
+* Keep yourself out of plagarism; Read [UMSL's Policy](https://www.umsl.edu/services/academic/policy/academic-dishonesty.html); Our `turnitin` tool automatically checks for plagarism.
+
+<img src="supporting_files/academic_dishonesty.gif" align="middle" width="150"/>
 
 ## 8. Programming language
 You are recommended (but not required) to use Python3 for all of your homeworks and project. If you have a reason to use a different programming language (for example if your background is in C++ or Java), please send me an email and I can approve you to use a language of your choice.
