@@ -75,10 +75,7 @@ Adjacency matrix:
  [0 1 0 0]
  [0 0 1 0]]
 Incidence matrix:
-[[-1 -1  0  0  0 -1]
- [ 1  0 -1  1  0 -1]
- [ 0  1  0 -1  1  0]
- [ 0  0  1  0 -1  0]]
+
 Degree matrix:
 [[ 3 -2 -1  0]
  [-2  4 -1 -1]
