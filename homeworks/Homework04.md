@@ -89,7 +89,7 @@ First activity, its start time, and finish time
 The iterative greedy activity selection algorithm has a running time of Ө(n). But the algorithm assumes that the activities are sorted by their finish times. If the activities are not sorted, how can we get the algorithm to work? What will be the new running time?
 
 ## Question 4
-Discuss the difference/s between the greedy algorithm and the dynamic programming method with the help of the two versions of the knapsack problem. Include in your discussion how the greedy-choice property holds true only for one of the knapsack problems.
+Discuss the difference/s between the greedy algorithm and the dynamic programming method with the help of the two versions of the knapsack problem. Focus your discussion on how the greedy-choice property holds true only for one of the knapsack problems. Please do not describe the knapsack problems. Also please do not discuss the general differences between greddy algorithms and dynamic programming.
 
 ## Question 5 
 To solve the activity selection problem, the technique of sorting activities by their number of overlaps and then selecting the activities that have minimum overlaps with other activities, does not work. Illustrate this with a simple example. With time in the X-axis, also show visually, the overlap between the activities, when describing your example.
