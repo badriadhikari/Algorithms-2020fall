@@ -87,7 +87,7 @@ Degree matrix:
 ```
 
 ## Question 6
-What **minimal** changes can be made to the following BFS **algorithm** so that (i) accepts a destination node, (ii) terminates when a destination node is found, and (iii) the algorithm becomes a depth-first search. Submit a single algorithm with all changes in it, i.e. do not submit three separate modifications.
+What **minimal** changes can be made to the following BFS **algorithm** so that (i) accepts a destination node, (ii) terminates when a destination node is found, and (iii) the algorithm becomes a depth-first search. Submit a single algorithm with all changes in it, i.e. do not submit three separate modifications. Your DFS algorithm does not need to print or store the discovery/finish times.
 
 <img src="bfs_clrs.png" align="middle" width="600"/>
 
