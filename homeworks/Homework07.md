@@ -7,7 +7,9 @@ Please read this with the goal of using the knowledge to do the homework below.
 
 Say you want to install a library called `gcc`, and it depends upon dozens of other libraries. These libraries have their own inter-dependencies but there are no circular dependencies. In other words, you have a dependency graph between all these libraries that you plan to install. Your goal is to come up with an order of these libraries such that installing the libraries by the order will eventually allow you to install `gcc` without any dependency errors. This is a form of [dependency hell](https://en.wikipedia.org/wiki/Dependency_hell). For this particular situation, what algorithm will you use?
 
-<img src="git_arch_deps_debian_100.png" align="middle" width="550"/>
+<p align="center">
+<img src="git_arch_deps_debian_100.png" align="middle" width="650"/>
+</p>
 
 ## Watch lectures
 1. [Adjacency matrix, adjacency list, and incidece matrix representation](https://youtu.be/WQ2Tzlxl_Xo)
