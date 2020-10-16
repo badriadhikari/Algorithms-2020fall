@@ -5,7 +5,7 @@ Please read this with the goal of using the knowledge to do the homework below.
 
 ## A job scheduling problem
 
-Say you want to install a library called X, and it depends upon dozens of other libraries. These libraries have their own inter-dependencies but there are no circular dependencies. In other words, you have a dependency graph between all these libraries that you plan to install. Your goal is to come up with an order of these libraries such that installing the libraries by the order will eventually allow you to install X without any dependency errors. This is a form of [dependency hell](https://en.wikipedia.org/wiki/Dependency_hell). For this particular situation, what algorithm will you use?
+Say you want to install a library called `gcc`, and it depends upon dozens of other libraries. These libraries have their own inter-dependencies but there are no circular dependencies. In other words, you have a dependency graph between all these libraries that you plan to install. Your goal is to come up with an order of these libraries such that installing the libraries by the order will eventually allow you to install `gcc` without any dependency errors. This is a form of [dependency hell](https://en.wikipedia.org/wiki/Dependency_hell). For this particular situation, what algorithm will you use?
 
 <img src="git_arch_deps_debian_100.png" align="middle" width="550"/>
 
