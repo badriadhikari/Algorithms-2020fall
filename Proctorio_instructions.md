@@ -15,7 +15,7 @@ Apple introduced new security features with the release of OS Catalina. If you a
 - A strong internet connection is advisable. Avoid free wifi in public places for this reason. Likewise, you might want to ask roommates or family not to stream video or play games online while you are taking your test.  
 - Make sure your laptop is plugged in.  
 - Have all study materials put away.  
-- You will be required to show your UMSL student ID to the camera at the beginning of the test, so have it handy.  
+- You will be required to show your UMSL student ID to the camera at the beginning of the test, so have it handy. If your name and photo in your ID are unclear in the camera, your submission may be cancelled.
 - Because of the use of the camera, you should be appropriately dressed.  
 - You are required to keep the video on during the entire test time.
 - Proctorio will automatically record you video and your screen for the instructor to review.
