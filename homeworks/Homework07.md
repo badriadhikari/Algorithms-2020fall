@@ -63,7 +63,7 @@ def adjacency2incidence(A):
 
 
     # of course, you must remove the line below
-    B = np.asarray([[-1, 1, 0, 0], [-1, 0, 1, 0], [0, -1, 0, 1], [0, 1, -1, 0], [0, 0, 1, -1], [1, -1, 0, 0]])
+    B = np.asarray([[-1, 1, 0, 0], [-1, 0, 1, 0], [0, 1, -1, 0], [0, -1, 0, 1], [0, 0, 1, -1], [1, -1, 0, 0]])
     return B.T # depending on how you implement this may be B only
 
 print('Adjacency matrix:')
@@ -84,9 +84,9 @@ Adjacency matrix:
  [0 0 1 0]]
 Incidence matrix:
 [[-1 -1  0  0  0  1]
- [ 1  0 -1  1  0 -1]
- [ 0  1  0 -1  1  0]
- [ 0  0  1  0 -1  0]]
+ [ 1  0  1 -1  0 -1]
+ [ 0  1 -1  0  1  0]
+ [ 0  0  0  1 -1  0]]
 Degree matrix:
 [[ 3 -2 -1  0]
  [-2  4 -1 -1]
