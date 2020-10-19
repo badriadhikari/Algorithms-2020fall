@@ -4,6 +4,10 @@
 
 If you have not installed Proctorio in Google Chrome, please follow the instructions [here](./supporting_files/Proctorio_Student_Guide.pdf).
 
+## Mac users need to enable screen sharing for browsers 
+
+Apple introduced new security features with the release of OS Catalina. If you are running macOS Catalina - version 10.15 or later - you must grant Google Chrome access to the new screen recording permission in order to share your screen for a proctored session with Proctorio. If you plan to take the test on a MacOS Catalina, you will need to enable screen sharing for browsers. Please read [here](https://support.proctoru.com/hc/en-us/articles/360036574592-MacOS-X-Catalina-Users-Important-Notice) to learn how to do this.
+
 ## Instructions  
 
 - You will need to be alone, in a quiet place where you can work uninterrupted. Proctorio’s algorithms will flag excessive noise, conversation, and the presence of others on camera as potential cheating.  
