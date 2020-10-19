@@ -14,4 +14,5 @@ If you have not installed Proctorio in Google Chrome, please follow the instruct
 - You will be required to show your UMSL student ID to the camera at the beginning of the test, so have it handy.  
 - Because of the use of the camera, you should be appropriately dressed.  
 - You are required to keep the video on during the entire test time.
+- Proctorio will automatically record you video and your screen for the instructor to review.
 - You will be required to show a panorama of your room, including your desktop. If you have a desktop computer with a built-in camera (such as an iMac), you can use a mirror to show your entire space.
