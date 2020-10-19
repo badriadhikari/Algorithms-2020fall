@@ -2,7 +2,7 @@
 
 ## How to setup Proctorio?
 
-If you have not installed Proctorio in Google Chrome, please follow the instructions [here](./Proctorio_Student_Guide.pdf).
+If you have not installed Proctorio in Google Chrome, please follow the instructions [here](./supporting_files/Proctorio_Student_Guide.pdf).
 
 ## Instructions  
 
