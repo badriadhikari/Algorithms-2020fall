@@ -129,7 +129,7 @@ There will be some homeworks from each chapter that we cover. Many of the homewo
 | --- | --- |
 | Homeworks | 50 |
 | Project | 10 |
-| Mid-term oral exam | 10 |
+| Mid-term oral one-on-one meeting | 10 |
 | Final oral exam | 30 |
 
 Note: One (1) bonus point will be assigned to everyone who completes the course evaluation survey. Please email me once you submit the survey.
