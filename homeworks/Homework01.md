@@ -4,7 +4,7 @@
 * Watch how to use [Google Colab](https://www.youtube.com/watch?v=PVsS9WtwVB8)
 * Practice Python3 - [notebook](../notebooks/python.ipynb) and watch [lecture](https://www.youtube.com/watch?v=V42qfAPybp8)
 * If you are new to Python, I suggest practicing Python at online platforms such as [codewars.org](https://www.codewars.com/)
-* If you fear learning new things (including Python), I also suggest that you watch [this](https://www.coursera.org/learn/learning-how-to-learn/home/welcome) world's most popular onine course.
+* If you fear learning new things (including Python), I also suggest that you watch [this](https://www.coursera.org/learn/learning-how-to-learn/home/welcome) world's most popular online course.
 
 # Learn to plot functions
 * Using free online tools such as [Desmos](https://www.desmos.com/calculator)
