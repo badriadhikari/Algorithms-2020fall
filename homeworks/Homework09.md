@@ -1,8 +1,22 @@
 # Homework 9
 
 <!---
-## Read sections 23.1 and 23.5 from CLRS
+## Read sections 24, 24.1, 24.2, and 24.3 from CLRS
 Please read this with the goal of using the knowledge to do the homework below.
+
+a graph has a few negative values. we are keen to run Dijkstra's algorithm. Can I still run it? we can make the weights positive by adding some constant. Is this approach good? What is wrong with this approach.
+
+run dijkstra's algorithm/bellman ford algorithm on the same graph (weights in the question itself) and verify using the networkx library.
+
+pert problem on baking problem. show topological order first. focus how the relaxation works on node 7.
+
+Can we compute we shortest path from a to b? Explain.The answer sholud be yes.
+
+Hypothetical question: In dijkstra's algorithm, if RELAX takes O(V) time what will be time complexity?
+
+bellman ford, ask them to run all three versions. ask which version is fastest?
+
+
 
 ## Understand the muddy city problem
 [The muddy city problem](./muddy_city_problem.md)
