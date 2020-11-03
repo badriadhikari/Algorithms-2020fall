@@ -4,17 +4,37 @@
 ## Read sections 24, 24.1, 24.2, and 24.3 from CLRS
 Please read this with the goal of using the knowledge to do the homework below.
 
-a graph has a few negative values. we are keen to run Dijkstra's algorithm. Can I still run it? we can make the weights positive by adding some constant. Is this approach good? What is wrong with this approach.
+## Understand the single-source shortest path problem
+[Single-source shortest path problem]()
+
+## Watch lectures
+1. [What are trees and spanning trees?](https://youtu.be/qD6taefu3-Q)
+1. Optimal substructure
+1. Negative weight cycle
+1. Initialize and Relax
+
+
+## Question 1
+For the Dijkstra's algorithm to successfully produce a shortest path and the shortest path cost, all the weights must be nonnegative. Clearly, this is a limitation of the algorithm. Say someone suggested that this limitation can be 'smartly' overcome by adding a constant to all the weights so that all the weights become nonnegative. Can such a method yeild a shortest path and the shortest path cost? What is a 'potential' issue with this approach? Create a small graph with at least one negative weight and explain.
+
+## Question 2
+Negative weight cycles in a directed graph can be an issue when computing shortest paths. Can we compute a shortest path from `a` to `g` in the graph below using the Dijkstra's algorithm or Bellman-Ford algorithm? Explain.  
+<img src="negative-weight-cycle.png" height=200>
+
+## Question 3
+In the following Dijkstra's algorithm, assume that the cost of each `EXTRACT-MIN` operation is O(lg V). If each `RELAX` operations takes O(V) time, what will be time complexity of the overall algorithm below in terms of Big-O?  
+<img src="dijkstra-algo.png" height=200>
+
+## Question 4
+Shortest paths are always well defined in a directed acyclic graph (DAG). This is because even if there are negative weight edges, no negative-weight cycles can exist. Hence, we don't need to run Dijkstra's algorithm of Belman-Ford algorith. A simpler algorithm `DAG-SHORTEST-PATHS()` (see below) can be used to calculate the shortest paths. An interesting application of this arises in determining 'critical paths', i.e. paths with lowest cost. For the directed acyclic graph below that shows the time needed to perform various activities to bake a cake, determine a critical path (i.e. the quickest we could bake the cake) using the algorithm `DAG-SHORTEST-PATHS()` below. Since we are actually interested in the 'minimum' time, the weights (time in minutes) must be negated before running the algorithm below. Also, the standard `RELAX()` and `INITIALIZE-SINGLE-SOURCE()` will need to be updated as shown below. Show your topological ordering. Clearly show how the `RELAX()` operation changes the value of 'shortest path estimate' and 'predecessor attribute' of the Node 7. Process by their numbers.
+<img src="critical-path-problem.png" height=200>
+<img src="dag-shortest-path.png" height=200>
 
 run dijkstra's algorithm/bellman ford algorithm on the same graph (weights in the question itself) and verify using the networkx library.
 
 pert problem on baking problem. show topological order first. focus how the relaxation works on node 7.
 
-Can we compute we shortest path from a to b? Explain.The answer sholud be yes.
-
-Hypothetical question: In dijkstra's algorithm, if RELAX takes O(V) time what will be time complexity?
-
-bellman ford, ask them to run all three versions. ask which version is fastest?
+bellman ford, ask to run all three versions. ask which version is fastest?
 
 
 
