@@ -45,6 +45,6 @@ Can we conclude that selecting edges by non-increasing/non-decreasing weights wi
 
 ## Question 7
 Find shortest paths between Mountain View and all other places in the map of Silicon Valley below. As your answer, provide the list of all
-the places and their corresponding shortest distance sorted by the shortest distance.
-<img src="silocon-valley.png" height=200>
+the places and their corresponding shortest distance sorted by the shortest distance. You are welcome to use any 'libraries' or 'publicly available code'.  
+<img src="silocon-valley.png" height=800>
 
