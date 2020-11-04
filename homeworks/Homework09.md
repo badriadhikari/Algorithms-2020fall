@@ -17,7 +17,7 @@ Please read this with the goal of using the knowledge to do the homework below.
 For the Dijkstra's algorithm to successfully produce a shortest path and the shortest path cost, all the weights must be nonnegative. Clearly, this is a limitation of the algorithm. Say someone suggested that this limitation can be 'smartly' overcome by adding a constant to all the weights so that all the weights become nonnegative. Can such a method yeild a shortest path and the shortest path cost? What is a 'potential' issue with this approach? Create a small graph with at least one negative weight and explain.
 
 ## Question 2
-Negative weight cycles in a directed graph can be an issue when computing shortest paths. Can we compute a shortest path from `a` to `g` in the graph below using the Dijkstra's algorithm or Bellman-Ford algorithm? Explain.  
+A shortest path cannot contain a negative weight cycle. Nor can it contain a positive weight cycle. Because we can get a shorter path by removing such a cycle. Negative weight cycles in a directed graph can be an issue when computing shortest paths. Can we compute a shortest path from `a` to `g` in the graph below using the Dijkstra's algorithm or Bellman-Ford algorithm? Explain.  
 <img src="negative-weight-cycle.png" height=200>
 
 ## Question 3
@@ -25,13 +25,16 @@ In the following Dijkstra's algorithm, assume that the cost of each `EXTRACT-MIN
 <img src="dijkstra-algo.png" height=200>
 
 ## Question 4
-Shortest paths are always well defined in a directed acyclic graph (DAG). This is because even if there are negative weight edges, no negative-weight cycles can exist. Hence, we don't need to run Dijkstra's algorithm of Belman-Ford algorith. A simpler algorithm `DAG-SHORTEST-PATHS()` (see below) can be used to calculate the shortest paths. An interesting application of this arises in determining 'critical paths', i.e. paths with lowest cost. For the directed acyclic graph below that shows the time needed to perform various activities to bake a cake, determine a critical path (i.e. the quickest we could bake the cake) using the algorithm `DAG-SHORTEST-PATHS()` below. Since we are actually interested in the 'minimum' time, the weights (time in minutes) must be negated before running the algorithm below. Also, the standard `RELAX()` and `INITIALIZE-SINGLE-SOURCE()` will need to be updated as shown below. Show your topological ordering. Clearly show how the `RELAX()` operation changes the value of 'shortest path estimate' and 'predecessor attribute' of the Node 7. Process by their numbers.
+Shortest paths are always well defined in a directed acyclic graph (DAG). This is because even if there are negative weight edges, no negative-weight cycles can exist. Hence, we don't need to run Dijkstra's algorithm of Belman-Ford algorith. A faster algorithm `DAG-SHORTEST-PATHS()` with a running time of Θ(V+E) can be used to calculate the shortest paths (see below). An interesting application of this arises in determining 'critical paths', i.e. paths with lowest cost. For the directed acyclic graph below that shows the time needed to perform various activities to bake a cake, determine a critical path (i.e. the quickest we could bake the cake) using the algorithm `DAG-SHORTEST-PATHS()` below. In the graph, edges represent jobs to be performed, and edge weights represent the times required to perform particular jobs. If edge (u,v) enters vertex v and edge (v, x) leaves v, then job (u,v) must be performed before job (v,x). A path through this DAG represents a sequence of jobs that must be performed in a particular order. A critical path is a longest path through the DAG, corresponding to the longest time to perform any sequence of jobs. The weight of a critical path provides a lower bound on the total time to perform all the jobs.  
+
+Since we are actually interested in the 'minimum' time, the weights (time in minutes) must be negated before running the algorithm below. Also, the standard `RELAX()` and `INITIALIZE-SINGLE-SOURCE()` will need to be updated as shown below. Show your topological ordering. Clearly show how the `RELAX()` operation changes the value of 'shortest path estimate' and 'predecessor attribute' of the Node 7. Nodes should be processed in the order of their numbers.
+
 <img src="critical-path-problem.png" height=200>
 <img src="dag-shortest-path.png" height=200>
 
-run dijkstra's algorithm/bellman ford algorithm on the same graph (weights in the question itself) and verify using the networkx library.
 
-pert problem on baking problem. show topological order first. focus how the relaxation works on node 7.
+
+run dijkstra's algorithm/bellman ford algorithm on the same graph (weights in the question itself) and verify using the networkx library.
 
 bellman ford, ask to run all three versions. ask which version is fastest?
 
