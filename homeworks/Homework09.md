@@ -13,15 +13,17 @@ Please read this with the goal of using the knowledge to do the homework below.
 1. Initialize and Relax
 
 ## Question 1
-Trace the Dijkstra's algorithm to obtain shortest paths to all other nodes from the node `s`. Assume that the weights for the edge (y,x) is 3 and (t,z) is 4. 
-<img src="dijkstra-algo.png" height=200>
+Trace the Dijkstra's algorithm to obtain shortest paths to all other nodes from the node `s`. Assume that the weights for the edge (y,x) is 3 and (t,z) is 4.   
+
+<img src="dijkstra-algo.png" height=200>  
 <img src="dg-problem.png" height=200>
 
 ## Question 2
 For the Dijkstra's algorithm to successfully produce a shortest path and the shortest path cost, all the weights must be nonnegative. Clearly, this is a limitation of the algorithm. Say someone suggested that this limitation can be 'smartly' overcome by adding a constant to all the weights so that all the weights become nonnegative. Can such a method yeild a shortest path and the shortest path cost? What is a 'potential' issue with this approach? Create a small graph with at least one negative weight and explain.
 
 ## Question 3
-A shortest path cannot contain a negative weight cycle. Nor can it contain a positive weight cycle. Because we can get a shorter path by removing such a cycle. Negative weight cycles in a directed graph can be an issue when computing shortest paths. Can we compute a shortest path from `a` to `g` in the graph below using the Dijkstra's algorithm or Bellman-Ford algorithm? Explain.  
+A shortest path cannot contain a negative weight cycle. Nor can it contain a positive weight cycle. Because we can get a shorter path by removing such a cycle. Negative weight cycles in a directed graph can be an issue when computing shortest paths. Can we compute a shortest path from `a` to `g` in the graph below using the Dijkstra's algorithm or Bellman-Ford algorithm? Explain.    
+
 <img src="negative-weight-cycle.png" height=200>
 
 ## Question 4
@@ -40,11 +42,13 @@ For the following graph, in how many executions of the 'outer for loop' (line #2
 1. Non-decreasing weights (starting with the smallest weight)?
 1. Non-increasing weights (starting with the largest weight)?
 1. In the following order: (t,x), (t,y), (t,z), (x,t), (y,x), (y,z), (z,x), (z,s), (s,t), (s,y)?  
-Can we conclude that selecting edges by non-increasing/non-decreasing weights will make the algorithm converge faster?  
+Can we conclude that selecting edges by non-increasing/non-decreasing weights will make the algorithm converge faster?   
+
 <img src="bellman-ford.png" height=200>
 
 ## Question 7
 Find shortest paths between Mountain View and all other places in the map of Silicon Valley below. As your answer, provide the list of all
-the places and their corresponding shortest distance sorted by the shortest distance. You are welcome to use any 'libraries' or 'publicly available code'.  
+the places and their corresponding shortest distance sorted by the shortest distance. You are welcome to use any 'libraries' or 'publicly available code'.   
+
 <img src="silocon-valley.png" height=800>
 
