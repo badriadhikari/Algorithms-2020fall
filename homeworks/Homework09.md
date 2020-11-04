@@ -1,6 +1,5 @@
 # Homework 9
 
-<!---
 ## Read sections 24, 24.1, 24.2, and 24.3 from CLRS
 Please read this with the goal of using the knowledge to do the homework below.
 
@@ -42,5 +41,10 @@ For the following graph, in how many executions of the 'outer for loop' (line #2
 1. Non-increasing weights (starting with the largest weight)?
 1. In the following order: (t,x), (t,y), (t,z), (x,t), (y,x), (y,z), (z,x), (z,s), (s,t), (s,y)?  
 Can we conclude that selecting edges by non-increasing/non-decreasing weights will make the algorithm converge faster?  
-<img src="bellman-fordpng" height=200>
+<img src="bellman-ford.png" height=200>
+
+## Question 7
+Find shortest paths between Mountain View and all other places in the map of Silicon Valley below. As your answer, provide the list of all
+the places and their corresponding shortest distance sorted by the shortest distance.
+<img src="silocon-valley.png" height=200>
 
