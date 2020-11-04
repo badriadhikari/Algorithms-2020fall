@@ -14,6 +14,11 @@ Please read this with the goal of using the knowledge to do the homework below.
 1. Initialize and Relax
 
 ## Question 1
+Trace the Dijkstra's algorithm to obtain shortest paths to all other nodes from the node `s`. Assume that the weights for the edge (y,x) is 3 and (t,z) is 4. 
+<img src="dijkstra-algo.png" height=200>
+<img src="dg-problem.png" height=200>
+
+## Question 1
 For the Dijkstra's algorithm to successfully produce a shortest path and the shortest path cost, all the weights must be nonnegative. Clearly, this is a limitation of the algorithm. Say someone suggested that this limitation can be 'smartly' overcome by adding a constant to all the weights so that all the weights become nonnegative. Can such a method yeild a shortest path and the shortest path cost? What is a 'potential' issue with this approach? Create a small graph with at least one negative weight and explain.
 
 ## Question 2
@@ -22,7 +27,6 @@ A shortest path cannot contain a negative weight cycle. Nor can it contain a pos
 
 ## Question 3
 In the following Dijkstra's algorithm, assume that the cost of each `EXTRACT-MIN` operation is O(lg V). If each `RELAX` operations takes O(V) time, what will be time complexity of the overall algorithm below in terms of Big-O?  
-<img src="dijkstra-algo.png" height=200>
 
 ## Question 4
 Shortest paths are always well defined in a directed acyclic graph (DAG). This is because even if there are negative weight edges, no negative-weight cycles can exist. Hence, we don't need to run Dijkstra's algorithm of Belman-Ford algorith. A faster algorithm `DAG-SHORTEST-PATHS()` with a running time of Θ(V+E) can be used to calculate the shortest paths (see below). An interesting application of this arises in determining 'critical paths', i.e. paths with lowest cost. For the directed acyclic graph below that shows the time needed to perform various activities to bake a cake, determine a critical path (i.e. the quickest we could bake the cake) using the algorithm `DAG-SHORTEST-PATHS()` below. In the graph, edges represent jobs to be performed, and edge weights represent the times required to perform particular jobs. If edge (u,v) enters vertex v and edge (v, x) leaves v, then job (u,v) must be performed before job (v,x). A path through this DAG represents a sequence of jobs that must be performed in a particular order. A critical path is a longest path through the DAG, corresponding to the longest time to perform any sequence of jobs. The weight of a critical path provides a lower bound on the total time to perform all the jobs.  
@@ -32,12 +36,13 @@ Since we are actually interested in the 'minimum' time, the weights (time in min
 <img src="critical-path-problem.png" height=200>
 <img src="dag-shortest-path.png" height=200>
 
-
-
-run dijkstra's algorithm/bellman ford algorithm on the same graph (weights in the question itself) and verify using the networkx library.
-
-bellman ford, ask to run all three versions. ask which version is fastest?
-
+## Question 5
+For the following graph, in how many executions of the 'outer for loop' (line #2) will the Bellman-Ford algorithm find the shortest-paths, if you consider edges by:
+1. Non-decreasing weights (starting with the smallest weight)?
+1. Non-increasing weights (starting with the largest weight)?
+1. In the following order: (t,x), (t,y), (t,z), (x,t), (y,x), (y,z), (z,x), (z,s), (s,t), (s,y)?  
+Can we conclude that selecting edges by non-increasing/non-decreasing weights will make the algorithm converge faster?  
+<img src="bellman-fordpng" height=200>
 
 
 ## Understand the muddy city problem
