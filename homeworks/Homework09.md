@@ -15,8 +15,7 @@ Please read this with the goal of using the knowledge to do the homework below.
 ## Question 1
 Trace the Dijkstra's algorithm to obtain shortest paths to all other nodes from the node `s`. Assume that the weights for the edge (y,x) is 3 and (t,z) is 4.   
 
-<img src="dijkstra-algo.png" height=200>  
-<img src="dg-problem.png" height=200>
+<img src="dijkstra-algo.png" height=200><img src="dg-problem.png" height=200>
 
 ## Question 2
 For the Dijkstra's algorithm to successfully produce a shortest path and the shortest path cost, all the weights must be nonnegative. Clearly, this is a limitation of the algorithm. Say someone suggested that this limitation can be 'smartly' overcome by adding a constant to all the weights so that all the weights become nonnegative. Can such a method yeild a shortest path and the shortest path cost? What is a 'potential' issue with this approach? Create a small graph with at least one negative weight and explain.
@@ -34,8 +33,7 @@ Shortest paths are always well defined in a directed acyclic graph (DAG). This i
 
 Since we are actually interested in the 'minimum' time, the weights (time in minutes) must be negated before running the algorithm below. Also, the standard `RELAX()` and `INITIALIZE-SINGLE-SOURCE()` will need to be updated as shown below. Show your topological ordering. Clearly show how the `RELAX()` operation changes the value of 'shortest path estimate' and 'predecessor attribute' of the Node 7. Nodes should be processed in the order of their numbers.
 
-<img src="critical-path-problem.png" height=300>
-<img src="dag-shortest-path.png" height=200>
+<img src="critical-path-problem.png" height=300><img src="dag-shortest-path.png" height=200>
 
 ## Question 6
 For the following graph, in how many executions of the 'outer for loop' (line #2) will the Bellman-Ford algorithm find the shortest-paths, if you consider edges by:
