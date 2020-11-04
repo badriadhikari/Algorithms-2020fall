@@ -4,13 +4,13 @@
 Please read this with the goal of using the knowledge to do the homework below.
 
 ## Understand the single-source shortest path problem
-[Single-source shortest path problem]()
+[Single-source shortest path problem](https://youtu.be/AkOm0vcjdPs)
 
 ## Watch lectures
-1. [What are trees and spanning trees?](https://youtu.be/qD6taefu3-Q)
-1. Optimal substructure
-1. Negative weight cycle
-1. Initialize and Relax
+1. [Optimal substructure of a shortest path](https://youtu.be/FsKnhJYVti4)
+1. [Negative weight edges and negative weight cycle in a directed graph](https://youtu.be/0HXYTi6ZG5Q)
+1. [Representing shortest paths and Relaxation]()
+1. [Bellman-Ford algorithm & Dijkstra's algorithm]()
 
 ## Question 1
 Trace the Dijkstra's algorithm to obtain shortest paths to all other nodes from the node `s`. Assume that the weights for the edge (y,x) is 3 and (t,z) is 4.   
