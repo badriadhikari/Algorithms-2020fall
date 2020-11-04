@@ -34,7 +34,7 @@ Shortest paths are always well defined in a directed acyclic graph (DAG). This i
 
 Since we are actually interested in the 'minimum' time, the weights (time in minutes) must be negated before running the algorithm below. Also, the standard `RELAX()` and `INITIALIZE-SINGLE-SOURCE()` will need to be updated as shown below. Show your topological ordering. Clearly show how the `RELAX()` operation changes the value of 'shortest path estimate' and 'predecessor attribute' of the Node 7. Nodes should be processed in the order of their numbers.
 
-<img src="critical-path-problem.png" height=200>
+<img src="critical-path-problem.png" height=300>
 <img src="dag-shortest-path.png" height=200>
 
 ## Question 6
