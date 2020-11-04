@@ -41,7 +41,7 @@ For the following graph, in how many executions of the 'outer for loop' (line #2
 1. Non-increasing weights (starting with the largest weight)?
 1. In the following order: (t,x), (t,y), (t,z), (x,t), (y,x), (y,z), (z,x), (z,s), (s,t), (s,y)?  
 
-Can we conclude that selecting edges by non-increasing/non-decreasing weights will make the algorithm converge faster?   
+Can we conclude that selecting edges by non-increasing or non-decreasing weights will make the algorithm converge faster?   
 
 <img src="bellman-ford.png" height=200>
 
