@@ -13,7 +13,6 @@ Please read this with the goal of using the knowledge to do the homework below.
 1. Negative weight cycle
 1. Initialize and Relax
 
-
 ## Question 1
 For the Dijkstra's algorithm to successfully produce a shortest path and the shortest path cost, all the weights must be nonnegative. Clearly, this is a limitation of the algorithm. Say someone suggested that this limitation can be 'smartly' overcome by adding a constant to all the weights so that all the weights become nonnegative. Can such a method yeild a shortest path and the shortest path cost? What is a 'potential' issue with this approach? Create a small graph with at least one negative weight and explain.
 
