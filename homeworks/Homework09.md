@@ -9,7 +9,7 @@ Please read this with the goal of using the knowledge to do the homework below.
 ## Watch lectures
 1. [Optimal substructure of a shortest path](https://youtu.be/FsKnhJYVti4)
 1. [Negative weight edges and negative weight cycle in a directed graph](https://youtu.be/0HXYTi6ZG5Q)
-1. [Representing shortest paths and Relaxation]()
+1. [Representing shortest paths and Relaxation](https://youtu.be/fqcSpN9sLTo)
 1. [Bellman-Ford algorithm & Dijkstra's algorithm](https://youtu.be/CjDt97wuCI0)
 
 ## Question 1
