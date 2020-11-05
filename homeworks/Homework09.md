@@ -18,7 +18,11 @@ Trace the Dijkstra's algorithm to obtain shortest paths to all other nodes from 
 <img src="dijkstra-algo.png" height=200><img src="dg-problem.png" height=200>
 
 ## Question 2
-For the Dijkstra's algorithm to successfully produce a shortest path and the shortest path cost, all the weights must be nonnegative. Part A: Try running Dijkstra's algorithm on the graph below assuming `A` is the source node and discuss why Dijkstra's algorithm fails. Part B: Clearly, this is a limitation of the algorithm. Say someone suggested that this limitation can be 'smartly' overcome by adding a constant to all the weights so that all the weights become nonnegative. Can such a 'trick' yeild a shortest path and the shortest path cost? What is a 'potential' issue with this approach? Create a small graph with at least one negative weight and explain.
+For the Dijkstra's algorithm to successfully produce a shortest path and the shortest path cost, all the weights must be nonnegative.
+
+**Part A:** Try running Dijkstra's algorithm on the graph below assuming `A` is the source node and discuss why Dijkstra's algorithm fails.
+
+**Part B:** Clearly, this is a limitation of the algorithm. Say someone suggested that this limitation can be 'smartly' overcome by adding a constant to all the weights so that all the weights become nonnegative. Can such a 'trick' yeild a shortest path and the shortest path cost? What is a 'potential' issue with this approach? Create a small graph with at least one negative weight and explain.
 
 <img src="dijkstra-graph-fail.png" height=100>
 
