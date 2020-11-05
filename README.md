@@ -6,7 +6,7 @@
 
 | Instructor (facilitator) | Contact information |
 |:---|:---|
-| [<img src="./supporting_files/badri.jpg" align="middle" width="100"/>](https://badriadhikari.github.io/) | Instructor (Facilitator): [Badri Adhikari](http://umsl.edu/~adhikarib/) <br> Email: [`adhikarib@umsl.edu`](mailto:adhikarib@umsl.edu) <br> Class meets: Tuesdays 8:20PM - 9:35PM (synchronously via Zoom) <br> Office hours: By appointment |
+| [<img src="./supporting_files/badri.jpg" align="middle" width="100"/>](https://badriadhikari.github.io/) | Instructor (Facilitator): [Badri Adhikari](http://umsl.edu/~adhikarib/) <br> Email: adhikarib@edu.umsl <br> Class meets: Tuesdays 8:20PM - 9:35PM (synchronously via Zoom) <br> Office hours: By appointment |
 
 **Teaching philosophy:** Computer science and technology is mostly a practical discipline. To learn the fundamentals, an effective strategy is to follow an iterative process of `reading, analyzing, and coding`. However, many students either like to `analyze` or `code` but not both. While some of us enjoy developing the skills for critically assessing the concepts and algorithms, many others enjoy programming and love building things. I think that an effective computer science course should be a balance of (a) theoretical knowledge to understand how computer technology works, and (b) implementation skills to test and execute the theories and algorithms. I design course contents and assignments so that students have an opportunity to improve both: analytical and programming skills. Students with a rich programming experience may find this balance slightly easier but will have a platform to explore further. For many others who do not consider themselves expert programmers, taking such a course will be a rewarding experience.
 
