@@ -31,3 +31,56 @@ Find shortest paths between all 'named' places in the map of Silicon Valley belo
 <img src="silocon-valley.png" height=800>
 
 -->
+
+# All-pair shortest path using dynamic programming
+<p align="center">
+<img src="all-pair-shortest-path-using-dp.png" height=200>
+</p>
+
+```python
+import numpy as np
+
+W = np.array([[     0,      3,      8, np.inf,     -4],
+              [np.inf,      0, np.inf,      1,      7],
+              [np.inf,      4,      0, np.inf, np.inf],
+              [     2, np.inf,     -5,      0, np.inf],
+              [np.inf, np.inf, np.inf,      6,      0]])
+
+def EXTEND_SHORTEST_PATHS(L, W):
+    n = len(L[0, :])
+    LL = np.full_like(L, np.inf)
+    for i in range(n):
+        for j in range(n):
+            for k in range(n):
+                LL[i, j] = min(LL[i, j], L[i, k] + W[k, j])
+    return LL
+
+def FASTER_ALL_PAIRS_SHORTEST_PATHS(W):
+    n = len(W[0, :])
+    LM = np.copy(W)
+    m = 1
+    while m < n:
+        LM = EXTEND_SHORTEST_PATHS(LM, LM)
+        m = 2 * m
+    return LM
+
+print('Graph:')
+print(W)
+print('All pair shortest path distances:')
+print(FASTER_ALL_PAIRS_SHORTEST_PATHS(W))
+```
+Output:
+```
+Graph:
+[[ 0.  3.  8. inf -4.]
+ [inf  0. inf  1.  7.]
+ [inf  4.  0. inf inf]
+ [ 2. inf -5.  0. inf]
+ [inf inf inf  6.  0.]]
+All pair shortest path distances:
+[[ 0.  1. -3.  2. -4.]
+ [ 3.  0. -4.  1. -1.]
+ [ 7.  4.  0.  5.  3.]
+ [ 2. -1. -5.  0. -2.]
+ [ 8.  5.  1.  6.  0.]]
+ ```
