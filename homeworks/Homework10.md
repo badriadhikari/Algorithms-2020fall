@@ -32,7 +32,9 @@ Find shortest paths between all 'named' places in the map of Silicon Valley belo
 
 -->
 
-# All-pair shortest path using dynamic programming
+# Appendix
+
+## All-pair shortest path using dynamic programming
 <p align="center">
 <img src="all-pair-shortest-path-using-dp.png" height=200>
 </p>
