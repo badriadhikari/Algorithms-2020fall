@@ -3,9 +3,12 @@
 ## Read sections 25, 25.1 and 25.2 from CLRS
 Please read this with the goal of using the knowledge to do the homework below.
 
-<!---
+
 ## Watch lectures
-1. [Optimal substructure of a shortest path](https://youtu.be/FsKnhJYVti4)
+1. [Running time of all-pair shortest path algorithms - Floyd-Warshall and Dynamic programming](https://youtu.be/s_0Il523Fio)
+
+
+<!---
 
 ## Question 1
 The time complexity of the Dijkstra's algorithm, when the priority queue is implemented using Fibonacci heap, is O(VlgV+E) and that of the Bellman-Ford algorithm is O(VE). These are both single-source shortest path algorithms. One straight-forward technique to obtain all-pair shortest paths is to run one of these two algorithms for every vertex in the graph. This makes the running times O(V<sup>2</sup>lgV+VE)) and O(V<sup>2</sup>E)) respectively. What will be the running times for (a) sparse graph, (b) dense graph, **in terms of E**?
