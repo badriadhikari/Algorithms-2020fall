@@ -20,15 +20,14 @@ If a dense graph does not have negative weights, is it theoritically equivalent 
 Mary wants to solve the single-source shortest path problem on a dense graph with negative weights but she has the Floyd-Warshall all-pair shortest path algorithm implemented already. It is ok (in terms of speed) to use the implementation that she already has?
 
 ## Question 4
-ToDo: Define L<sup>(m)</sup>. ToDo: Explain the theory that we can calculate L1, L2, etc. one by one to obtain L(n) the solution.
-Part I: For Figure 25.1 Calculate L<sup>(5)</sup> from L<sup>(4)</sup> and verify that they are equal.
-Part II: Implement the FASTER-SHOW-ALL-...
-ToDo: Implement the algorithm:
+For the directed graph below, trace the dynamic programming implementation for calculating all-pair shortest path to obtain the all-pair shortest paths. Calculate L<sup>(1)</sup>, L<sup>(2)</sup>, L<sup>(3)</sup>, L<sup>(4)</sup>, and L<sup>(5)</sup>. For the missing weights assume that following weights: {(1,2): 1, (1,5): -1, and (3,2):1}. Verify your answers using the implementation in the appendix. 
+
+<img src="all-pair-shortest-path-problem.png" height=200>
 
 ## Question 5 (programming)
 Find shortest paths between all 'named' places in the map of Silicon Valley below. As your answer, provide a table of all-pair shortest paths. You are welcome to use any 'libraries' or 'publicly available code'.   
 
-<img src="silocon-valley.png" height=800>
+<img src="silicon-valley.png" height=800>
 
 -->
 
