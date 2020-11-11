@@ -15,7 +15,7 @@ The time complexity of the Dijkstra's algorithm, when the priority queue is impl
 If a dense graph does not have negative weights, is it theoritically equivalent (in terms of speed) to run Dijkstra's algorithm |V| times instead of the Floyd-Warshall algorithm? Why?
 
 ## Question 3
-Mary wants to solve the single-source shortest path problem on a dense graph with negative weights but she has the Floyd-Warshall all-pair shortest path algorithm implemented already. It is ok (in terms of speed) to use the implementation that she already has?
+Mary wants to solve the single-source shortest path problem on a dense graph with negative weights but she has the Floyd-Warshall all-pair shortest path algorithm implemented already. It is ok (in terms of speed) to use the implementation that she already has? Explain.
 
 ## Question 4
 For the directed graph below, trace the dynamic programming implementation for calculating all-pair shortest path to obtain the all-pair shortest paths. Calculate L<sup>(1)</sup>, L<sup>(2)</sup>, L<sup>(3)</sup>, L<sup>(4)</sup>, and L<sup>(5)</sup>. For the missing weights assume that following weights: {(1,2): 1, (1,5): -1, and (3,2):1}. Verify your answers using the implementation in the appendix. 
