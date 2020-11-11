@@ -33,10 +33,8 @@ Find shortest paths between all 'named' places in the map of Silicon Valley belo
 
 # Appendix
 
-## All-pair shortest path using dynamic programming
-<p align="center">
+## All-pair shortest path using dynamic programming (example)
 <img src="all-pair-shortest-path-using-dp.png" height=200>
-</p>
 
 ```python
 import numpy as np
