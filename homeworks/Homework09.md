@@ -17,7 +17,8 @@ Trace the Dijkstra's algorithm to obtain shortest paths to all other nodes from 
 
 <img src="dijkstra-algo.png" height=200><img src="dg-problem.png" height=200>
 
-## Question 2
+## Question 2 (optional)
+<!--confusing
 For the Dijkstra's algorithm to successfully produce a shortest path and the shortest path cost, all the weights must be nonnegative.
 
 **Part A:** Try running Dijkstra's algorithm on the graph below assuming `A` is the source node and discuss why Dijkstra's algorithm fails.
@@ -25,7 +26,7 @@ For the Dijkstra's algorithm to successfully produce a shortest path and the sho
 <img src="dijkstra-graph-fail.png" height=100>
 
 **Part B:** Clearly, this is a limitation of the algorithm. Say someone suggested that this limitation can be 'smartly' overcome by adding a constant to all the weights so that all the weights become nonnegative. Can such a 'trick' yield a shortest path and the shortest path cost? What is a 'potential' issue with this approach? Create a small graph with at least one negative weight (or use the graph above) and explain.
-
+-->
 ## Question 3
 A shortest path cannot contain a negative weight cycle. Nor can it contain a positive weight cycle. Because we can get a shorter path by removing such a cycle. Negative weight cycles in a directed graph can be an issue when computing shortest paths. Can we compute a shortest path from `a` to `g` in the graph below using the Dijkstra's algorithm or Bellman-Ford algorithm? Explain.    
 
