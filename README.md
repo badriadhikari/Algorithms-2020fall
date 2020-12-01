@@ -97,8 +97,8 @@ CLRS 3rd Edition (ISBN 978-0-262-03384-8 or ISBN 978-0-262-53305-8); at [amazon]
 | 12     | 11/10                   | Discussion of Homework 09 (Chapter 24)      |
 | 13     | 11/17                   | Discussion of Homework 09 again (Chapter 24)  |
 | 14     | 11/24                   | **Fall break**                              |
-| 15     | 12/01                   | Discussion of Homework 10 & 11 (Chapter 25/26)      |
-| 16     | 12/08                   | Discussion of Homework 12/13 (Chapter 34/35)      |
+| 15     | 12/01                   | Project discussion  |
+| 16     | 12/08                   | Discussion of Homework 10  |
 | -      | 12/14                   | **Finals week (oral test)**                 |
 
 ## 7. Academic dishonesty
