@@ -22,7 +22,13 @@ For the directed graph below, trace the dynamic programming implementation for c
 
 <img src="all-pair-shortest-path-problem.png" height=200>
 
-## Question 5 (programming)
+## Question 5
+Run the Floyd-Warshall algorithm on the following weighted, directed graph and show the matrix D<superscript>(k)</superscript> that results in each iteration of the outer loop. Here the input W is a `n x n` weight matrix where n is the number of vertices. d<subscript>ij</subscript><superscript>(k)</superscript> is the weight of the shortest path from vertex i to vertex j for which all intermediate vertices are in the set {1, 2, ..., k}. When k = 0, d<subscript>ij</subscript><superscript>(0)</superscript> = w<subscript>ij</subscript>.
+
+<img src="floyd-warshall-problem.png" height=200>
+<img src="floyd-warshall.png" height=200>
+
+## Question 6 (programming)
 Find shortest paths between all 'named' places in the map of Silicon Valley below. As your answer, provide a table of all-pair shortest paths. You are welcome to use any 'libraries' or 'publicly available code'.   
 
 <img src="silicon-valley.png" height=800>
