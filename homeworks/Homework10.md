@@ -19,7 +19,9 @@ If a dense graph does not have negative weights, is it theoritically equivalent 
 Mary wants to solve the single-source shortest path problem on a dense graph with negative weights but she has the Floyd-Warshall all-pair shortest path algorithm implemented already. It is ok (in terms of speed) to use the implementation that she already has? Explain.
 
 ## Question 4
-For the directed graph below, trace the dynamic programming implementation for calculating all-pair shortest path to obtain the all-pair shortest paths. Calculate L<sup>(1)</sup>, L<sup>(2)</sup>, L<sup>(3)</sup>, L<sup>(4)</sup>, and L<sup>(5)</sup>. For the missing weights assume the following weights: {(1,2): 1, (1,5): -1, and (3,2):1}. Verify your answers using the implementation in the appendix. 
+Original question: For the directed graph below, trace the dynamic programming implementation for calculating all-pair shortest path to obtain the all-pair shortest paths. Calculate L<sup>(1)</sup>, L<sup>(2)</sup>, L<sup>(3)</sup>, L<sup>(4)</sup>, and L<sup>(5)</sup>. For the missing weights assume the following weights: {(1,2): 1, (1,5): -1, and (3,2):1}. Verify your answers using the implementation in the appendix. (There is a negative weight cycle so your answers may not match.)
+
+Corrected question (please ignore this if you already submitted): For the directed graph below, trace the dynamic programming implementation for calculating all-pair shortest path to obtain the all-pair shortest paths. Calculate L<sup>(1)</sup>, L<sup>(2)</sup>, L<sup>(3)</sup>, L<sup>(4)</sup>, and L<sup>(5)</sup>. For the missing weights assume the following weights: {(1,2): 1, (1,5): -1, and (3,2):10}. Verify your answers using the implementation in the appendix. 
 
 <img src="all-pair-shortest-path-problem.png" height=200>
 
